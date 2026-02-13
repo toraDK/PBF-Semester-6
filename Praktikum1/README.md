@@ -16,3 +16,7 @@
 #### Langkah 5 – Modifikasi Halaman Utama
 ![Langkah_5](gambar_dokumentasi/Langkah5_1.png)
 ![Langkah_5](gambar_dokumentasi/Langkah5_2.png)
+
+### Langkah 6 – Modifikasi API
+![Langkah_6](gambar_dokumentasi/Langkah6_1.png)
+![Langkah_6](gambar_dokumentasi/Langkah6_2.png)
