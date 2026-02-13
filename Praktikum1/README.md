@@ -5,3 +5,8 @@
 
 #### Langkah 2 – Membuat Project Next.js
 ![Langkah_2](gambar_dokumentasi/Langkah2.png)
+
+#### Langkah 3 – Menjalankan Server Development
+![Langkah_3](gambar_dokumentasi/Langkah3_1.png)
+![Langkah_3](gambar_dokumentasi/Langkah3_2.png)
+
