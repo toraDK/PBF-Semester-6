@@ -4,3 +4,4 @@
 ![Langkah_1](gambar_dokumentasi/langkah1.png)
 
 #### Langkah 2 – Membuat Project Next.js
+![Langkah_2](gambar_dokumentasi/Langkah2.png)
