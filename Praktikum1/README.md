@@ -38,3 +38,6 @@
 ## Tugas Praktikum
 #### Tugas 1
 ![Tugas_1](gambar_dokumentasi/Tugas1.png)
+
+#### Tugas 2
+![Tugas_2](gambar_dokumentasi/Tugas2.png)

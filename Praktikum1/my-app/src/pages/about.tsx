@@ -3,13 +3,28 @@ import Image from "next/image";
 export default function Home() {
     return (
         <>
+            <a href="/">
+                <button
+                style={{
+                    backgroundColor: "#2563eb",
+                    color: "white",
+                    padding: "10px 20px",
+                    borderRadius: "8px",
+                    border: "none",
+                    cursor: "pointer",
+                    fontSize: "16px",
+                    fontWeight: "bold",
+                }}
+                >
+                ← Kembali ke landing page
+                </button>
+            </a>
             <main
                 style={{
                     display: "flex",
                     justifyContent: "center",
                     alignItems: "center",
                     minHeight: "100vh",
-                    backgroundColor: "#f4f4f4",
                     fontFamily: "Arial, sans-serif",
                 }}
             >
@@ -23,13 +38,13 @@ export default function Home() {
                         width: "300px",
                     }}
                 >
-                <Image
-                    src="/user.png"
-                    alt="Foto Profil"
-                    width={120}
-                    height={120}
-                    style={{ borderRadius: "50%" }}
-                />
+                    <Image
+                        src="/user.png"
+                        alt="Foto Profil"
+                        width={120}
+                        height={120}
+                        style={{ borderRadius: "50%" }}
+                    />
 
                     <h2 style={{ marginTop: "20px" }}>Tora Digda Kristiawan</h2>
                     <p><strong>NIM:</strong> 2341720161</p>
