@@ -34,3 +34,7 @@
 ![Langkah_8](gambar_dokumentasi/Langkah8_6.png)
 ![Langkah_8](gambar_dokumentasi/Langkah8_7.png)
 ![Langkah_8](gambar_dokumentasi/Langkah8_8.png)
+
+## Tugas Praktikum
+#### Tugas 1
+![Tugas_1](gambar_dokumentasi/Tugas1.png)
