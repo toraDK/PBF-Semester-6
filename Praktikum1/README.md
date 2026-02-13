@@ -24,3 +24,13 @@
 ### Langkah 7 – Modifikasi Background
 ![Langkah_7](gambar_dokumentasi/Langkah7_1.png)
 ![Langkah_7](gambar_dokumentasi/Langkah7_2.png)
+
+### Langkah 8 – Setup ext pada VSCode (opsional)
+![Langkah_8](gambar_dokumentasi/Langkah8_1.png)
+![Langkah_8](gambar_dokumentasi/Langkah8_2.png)
+![Langkah_8](gambar_dokumentasi/Langkah8_3.png)
+![Langkah_8](gambar_dokumentasi/Langkah8_4.png)
+![Langkah_8](gambar_dokumentasi/Langkah8_5.png)
+![Langkah_8](gambar_dokumentasi/Langkah8_6.png)
+![Langkah_8](gambar_dokumentasi/Langkah8_7.png)
+![Langkah_8](gambar_dokumentasi/Langkah8_8.png)
