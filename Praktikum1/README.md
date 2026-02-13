@@ -12,3 +12,7 @@
 
 #### Langkah 4 – Mengenal Struktur Folder
 ![Langkah_4](gambar_dokumentasi/Langkah4.png)
+
+#### Langkah 5 – Modifikasi Halaman Utama
+![Langkah_5](gambar_dokumentasi/Langkah5_1.png)
+![Langkah_5](gambar_dokumentasi/Langkah5_2.png)
