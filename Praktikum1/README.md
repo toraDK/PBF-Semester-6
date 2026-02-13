@@ -10,3 +10,5 @@
 ![Langkah_3](gambar_dokumentasi/Langkah3_1.png)
 ![Langkah_3](gambar_dokumentasi/Langkah3_2.png)
 
+#### Langkah 4 – Mengenal Struktur Folder
+![Langkah_4](gambar_dokumentasi/Langkah4.png)
