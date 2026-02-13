@@ -20,3 +20,7 @@
 ### Langkah 6 – Modifikasi API
 ![Langkah_6](gambar_dokumentasi/Langkah6_1.png)
 ![Langkah_6](gambar_dokumentasi/Langkah6_2.png)
+
+### Langkah 7 – Modifikasi Background
+![Langkah_7](gambar_dokumentasi/Langkah7_1.png)
+![Langkah_7](gambar_dokumentasi/Langkah7_2.png)
