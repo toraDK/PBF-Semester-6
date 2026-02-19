@@ -15,3 +15,13 @@
 ![Dynamic Routing](gambar_dokumentasi/6.png)
 ![Dynamic Routing](gambar_dokumentasi/7.png)
 ![Dynamic Routing](gambar_dokumentasi/8.png)
+
+5. Membuat Komponen Navbar
+-> Membuat Komponen Navbar
+![KomponenNavbar](gambar_dokumentasi/9.png)
+![KomponenNavbar](gambar_dokumentasi/10.png)
+->Hasil
+![KomponenNavbar](gambar_dokumentasi/11.png)
+![KomponenNavbar](gambar_dokumentasi/12.png)
+![KomponenNavbar](gambar_dokumentasi/13.png)
+![KomponenNavbar](gambar_dokumentasi/14.png)
