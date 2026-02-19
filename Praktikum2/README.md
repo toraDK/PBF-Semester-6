@@ -6,3 +6,8 @@
 2. Routing Menggunakan Folder
 ![Routing Folder](gambar_dokumentasi/3.png)
 ![Routing Folder Hasil](gambar_dokumentasi/2.png)
+
+3. Nested Routing
+![Nested Routing](gambar_dokumentasi/4.png)
+![Nested Routing Hasil](gambar_dokumentasi/5.png)
+
