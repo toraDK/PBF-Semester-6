@@ -11,3 +11,7 @@
 ![Nested Routing](gambar_dokumentasi/4.png)
 ![Nested Routing Hasil](gambar_dokumentasi/5.png)
 
+4. Dynamic Routing
+![Dynamic Routing](gambar_dokumentasi/6.png)
+![Dynamic Routing](gambar_dokumentasi/7.png)
+![Dynamic Routing](gambar_dokumentasi/8.png)
