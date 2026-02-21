@@ -25,3 +25,7 @@
 ![KomponenNavbar](gambar_dokumentasi/12.png)
 ![KomponenNavbar](gambar_dokumentasi/13.png)
 ![KomponenNavbar](gambar_dokumentasi/14.png)
+
+6. Membuat Layout Global
+![LayoutGlobal](gambar_dokumentasi/15.png)
+
