@@ -29,3 +29,7 @@
 6. Membuat Layout Global
 ![LayoutGlobal](gambar_dokumentasi/15.png)
 
+7. Implementasi Layout di _app.tsx
+![implenmentasi Layout](gambar_dokumentasi/16.png)
+![implenmentasi Layout](gambar_dokumentasi/17.png)
+![implenmentasi Layout](gambar_dokumentasi/18.png)
