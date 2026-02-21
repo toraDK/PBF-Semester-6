@@ -33,3 +33,12 @@
 ![implenmentasi Layout](gambar_dokumentasi/16.png)
 ![implenmentasi Layout](gambar_dokumentasi/17.png)
 ![implenmentasi Layout](gambar_dokumentasi/18.png)
+
+Tugas1-Halaman profile dan edit profile
+->kode
+![struktur folder](gambar_dokumentasi/19.png)
+![Halaman profile](gambar_dokumentasi/20.png)
+![Halaman edit profile](gambar_dokumentasi/21.png)
+->Hasil
+![Halaman profile](gambar_dokumentasi/22.png)
+![Halaman profile](gambar_dokumentasi/23.png)
