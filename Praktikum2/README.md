@@ -49,3 +49,10 @@ Tugas2-Dynamic Routing
 ![blog](gambar_dokumentasi/25.png)
 ->Hasil
 ![halaman blog](gambar_dokumentasi/26.png)
+
+Tugas3-Menambahkan footer pada AppShell
+![footer](gambar_dokumentasi/27.png)
+![footer](gambar_dokumentasi/28.png)
+![footer](gambar_dokumentasi/29.png)
+![footer](gambar_dokumentasi/30.png)
+![footer](gambar_dokumentasi/31.png)
