@@ -44,3 +44,8 @@
 
 8. Langkah 8 – Simulasi Redirect (Belum Login)
 ![produk](gambar_dokumentasi/20.png)
+
+Tugas1
+->kode
+![category](gambar_dokumentasi/21.png)
+![category](gambar_dokumentasi/22.png)
