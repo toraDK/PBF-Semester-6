@@ -42,3 +42,10 @@ Tugas1-Halaman profile dan edit profile
 ->Hasil
 ![Halaman profile](gambar_dokumentasi/22.png)
 ![Halaman profile](gambar_dokumentasi/23.png)
+
+Tugas2-Dynamic Routing
+->Kode
+![struktur folder](gambar_dokumentasi/24.png)
+![blog](gambar_dokumentasi/25.png)
+->Hasil
+![halaman blog](gambar_dokumentasi/26.png)
