@@ -20,3 +20,7 @@
 4. Langkah 4 – Optional Catch-All Route
 ![Optional Catch-All Route](gambar_dokumentasi/9.png)
 ![Optional Catch-All Route](gambar_dokumentasi/10.png)
+
+5. Langkah 5 – Validasi Parameter
+![Validasi Parameter](gambar_dokumentasi/11.png)
+![Validasi Parameter](gambar_dokumentasi/12.png)
