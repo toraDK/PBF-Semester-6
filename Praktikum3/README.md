@@ -62,3 +62,13 @@ Tugas2
 Tugas3
 ![auth](gambar_dokumentasi/28.png)
 ![auth](gambar_dokumentasi/29.png)
+
+F. Pertanyaan Evaluasi
+1. Apa perbedaan [id].js dan [...slug].js?
+-> jika [id] itu hanya bisa menangkap 1 parameter saja, sedangkan [...slug] bisa menangkap parameter tidak terbatas
+2. Mengapa slug berbentuk array?
+-> karena slug menangkap lebih dari 1 parameter
+3. Kapan sebaiknya menggunakan Link dan router.push()?
+-> Link digunakan saat melakukan perpindahan halaman tanpa ada logika tambahan sedangkan router.push() digunakan jika ada logika sebeum ke halaman yang dituju contohnya seperti form, login, register
+4. Mengapa navigasi Next.js tidak me-refresh halaman?
+-> Karena Next.js menggunakan Client-Side Navigation
