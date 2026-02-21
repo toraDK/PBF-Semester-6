@@ -24,3 +24,15 @@
 5. Langkah 5 – Validasi Parameter
 ![Validasi Parameter](gambar_dokumentasi/11.png)
 ![Validasi Parameter](gambar_dokumentasi/12.png)
+
+6. Langkah 6 – Membuat Halaman Login & Register
+->Login
+-> Kode
+![kode login](gambar_dokumentasi/13.png)
+-> Hasil
+![halaman login](gambar_dokumentasi/14.png)
+->Register
+-> Kode
+![kode Register](gambar_dokumentasi/15.png)
+-> Hasil
+![halaman Register](gambar_dokumentasi/16.png)
