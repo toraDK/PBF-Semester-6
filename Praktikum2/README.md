@@ -56,3 +56,12 @@ Tugas3-Menambahkan footer pada AppShell
 ![footer](gambar_dokumentasi/29.png)
 ![footer](gambar_dokumentasi/30.png)
 ![footer](gambar_dokumentasi/31.png)
+
+
+Pertanyaan Refleksi
+1. Apa perbedaan routing berbasis file dan routing manual?
+-> jika routing berbasis file url otomatis dibuat berdasarkan nama file, jika routing manual maka perlu melakukan konfigurasi terlebihdahulu untuk urlnya 
+2. Mengapa dynamic routing penting dalam aplikasi web?
+-> agar web dapat menangkap data dari yang diberikan oleh url
+3. Apa keuntungan menggunakan layout global dibanding memanggil komponen satu per satu?
+-> keuntungan menggunakan layout global adalah tidak perlu mengimport komponen setiap ada file baru cukup melakukan import sekali saja
