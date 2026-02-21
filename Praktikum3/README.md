@@ -36,3 +36,8 @@
 ![kode Register](gambar_dokumentasi/15.png)
 -> Hasil
 ![halaman Register](gambar_dokumentasi/16.png)
+
+7. Langkah 7 – Navigasi Imperatif (router.push)
+![navigasi](gambar_dokumentasi/17.png)
+![navigasi](gambar_dokumentasi/18.png)
+![navigasi](gambar_dokumentasi/19.png)

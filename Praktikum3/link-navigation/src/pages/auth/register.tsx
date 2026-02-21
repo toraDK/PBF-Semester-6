@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const halamanRegister = () => {
+const HalamanRegister = () => {
     return (
         <div>
             <h1>Halaman Register</h1>
@@ -9,4 +9,4 @@ const halamanRegister = () => {
     );
 }
 
-export default halamanRegister;
+export default HalamanRegister;
