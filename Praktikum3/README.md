@@ -49,3 +49,12 @@ Tugas1
 ->kode
 ![category](gambar_dokumentasi/21.png)
 ![category](gambar_dokumentasi/22.png)
+
+Tugas2
+->kode
+![auth](gambar_dokumentasi/23.png)
+![auth](gambar_dokumentasi/24.png)
+->hasil
+![auth](gambar_dokumentasi/25.png)
+![auth](gambar_dokumentasi/26.png)
+![auth](gambar_dokumentasi/27.png)

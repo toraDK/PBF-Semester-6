@@ -5,6 +5,7 @@ const HalamanLogin = () => {
     const { push } = useRouter();
 
     const handlerLogin = () => {
+        sessionStorage.setItem("isLogin", "true");
         push("/produk");
     }
 
@@ -14,7 +15,10 @@ const HalamanLogin = () => {
         <button onClick={handlerLogin}>Login</button> <br/>
         <button onClick={() => push("/produk")}>Login</button> <br/>
         <button onClick={() => handlerLogin()}>Login</button> <br/>
-        <Link href={"/auth/register"}>ke Halaman Register</Link>
+        <Link href={"/auth/register"} className="link">ke Halaman Register</Link>
+        <hr />
+        <Link href={"/auth/register"} className="link">ke Halaman Register</Link>
+        <button onClick={() => handlerLogin()}>ke halaman produk</button>
     </div>
   );
 }
