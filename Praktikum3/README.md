@@ -41,3 +41,6 @@
 ![navigasi](gambar_dokumentasi/17.png)
 ![navigasi](gambar_dokumentasi/18.png)
 ![navigasi](gambar_dokumentasi/19.png)
+
+8. Langkah 8 – Simulasi Redirect (Belum Login)
+![produk](gambar_dokumentasi/20.png)
