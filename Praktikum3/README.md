@@ -16,3 +16,7 @@
 ->Hasil
 ![Hasil Catch-All Route](gambar_dokumentasi/7.png)
 ![Hasil Catch-All Route](gambar_dokumentasi/8.png)
+
+4. Langkah 4 – Optional Catch-All Route
+![Optional Catch-All Route](gambar_dokumentasi/9.png)
+![Optional Catch-All Route](gambar_dokumentasi/10.png)
