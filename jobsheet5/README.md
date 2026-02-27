@@ -8,3 +8,9 @@
 ![alt text](gambar_dokumentasi/5.png)
 ![alt text](gambar_dokumentasi/6.png)
 
+3. Styling untuk Pages (CSS Module)
+![alt text](gambar_dokumentasi/7.png)
+![alt text](gambar_dokumentasi/8.png)
+Hasil
+![alt text](gambar_dokumentasi/9.png)
+
