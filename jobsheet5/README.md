@@ -35,3 +35,9 @@ Hasil :
 Hasil:
 ![alt text](gambar_dokumentasi/18.png)
 
+8. SCSS (SASS)
+![alt text](gambar_dokumentasi/19.png)
+![alt text](gambar_dokumentasi/20.png)
+![alt text](gambar_dokumentasi/21.png)
+Hasil:
+![alt text](gambar_dokumentasi/22.png)
