@@ -23,3 +23,8 @@ Hasil :
 ![alt text](gambar_dokumentasi/12.png)
 Hasil tetap sama
 ![alt text](gambar_dokumentasi/13.png)
+
+6. Inline Styling (CSS-in-JS)
+![alt text](gambar_dokumentasi/14.png)
+Hasil :
+![alt text](gambar_dokumentasi/15.png)
