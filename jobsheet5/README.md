@@ -64,3 +64,10 @@ Kode
 ![alt text](gambar_dokumentasi/33.png)
 Hasil
 ![alt text](gambar_dokumentasi/34.png)
+
+Tugas3
+![alt text](gambar_dokumentasi/35.png)
+![alt text](gambar_dokumentasi/36.png)
+Hasil
+![alt text](gambar_dokumentasi/37.png)
+

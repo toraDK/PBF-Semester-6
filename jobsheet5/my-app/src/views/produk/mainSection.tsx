@@ -17,16 +17,7 @@ const MainSection = () => {
     <div style={{ padding: "40px", textAlign: "center" }}>
         <h2>Produk User Page</h2>
         <p>Ini adalah halaman khusus user yang sudah login.</p>
-            <button
-            style={{
-                marginTop: "20px",
-                padding: "10px 20px",
-                backgroundColor: "red",
-                color: "white",
-                border: "none",
-                borderRadius: "8px",
-                cursor: "pointer"
-            }}
+            <button className="mt-5 px-5 py-2 bg-red-500 text-white rounded-lg cursor-pointer"
             onClick={() => {
                 sessionStorage.removeItem("isLogin");
                 setIsLogin(false);
