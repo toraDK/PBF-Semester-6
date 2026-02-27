@@ -48,3 +48,9 @@ Hasil:
 ![alt text](gambar_dokumentasi/25.png)
 Hasil:
 ![alt text](gambar_dokumentasi/26.png)
+
+Tugas1
+![alt text](gambar_dokumentasi/27.png)
+![alt text](gambar_dokumentasi/28.png)
+Hasil
+![alt text](gambar_dokumentasi/29.png)
