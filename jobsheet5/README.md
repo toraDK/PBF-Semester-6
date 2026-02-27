@@ -41,3 +41,10 @@ Hasil:
 ![alt text](gambar_dokumentasi/21.png)
 Hasil:
 ![alt text](gambar_dokumentasi/22.png)
+
+9. Tailwind CSS
+![alt text](gambar_dokumentasi/23.png)
+![alt text](gambar_dokumentasi/24.png)
+![alt text](gambar_dokumentasi/25.png)
+Hasil:
+![alt text](gambar_dokumentasi/26.png)
