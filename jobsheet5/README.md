@@ -18,3 +18,8 @@ Hasil
 ![alt text](gambar_dokumentasi/10.png)
 Hasil :
 ![alt text](gambar_dokumentasi/11.png)
+
+5. Refactoring Struktur Project (Best Practice)
+![alt text](gambar_dokumentasi/12.png)
+Hasil tetap sama
+![alt text](gambar_dokumentasi/13.png)
