@@ -54,3 +54,13 @@ Tugas1
 ![alt text](gambar_dokumentasi/28.png)
 Hasil
 ![alt text](gambar_dokumentasi/29.png)
+
+Tugas2
+Struktur Folder
+![alt text](gambar_dokumentasi/30.png)
+Kode
+![alt text](gambar_dokumentasi/31.png)
+![alt text](gambar_dokumentasi/32.png)
+![alt text](gambar_dokumentasi/33.png)
+Hasil
+![alt text](gambar_dokumentasi/34.png)
