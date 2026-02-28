@@ -14,3 +14,11 @@ Hasil:
 ![alt text](gambar_dokumentasi/6.png)
 Hasil:
 ![alt text](gambar_dokumentasi/7.png)
+
+5. Langkah 5 – Styling Halaman 404
+![alt text](gambar_dokumentasi/8.png)
+![alt text](gambar_dokumentasi/9.png)
+![alt text](gambar_dokumentasi/10.png)
+
+Hasil:
+![alt text](gambar_dokumentasi/11.png)
