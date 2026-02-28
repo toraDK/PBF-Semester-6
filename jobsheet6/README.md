@@ -27,3 +27,15 @@ Hasil:
 ![alt text](gambar_dokumentasi/12.png)
 Hasil :
 ![alt text](gambar_dokumentasi/13.png)
+
+Tugas1
+Halaman 404
+![alt text](gambar_dokumentasi/14.png)
+Hasil :
+![alt text](gambar_dokumentasi/15.png)
+
+Halaman Landing Page
+![alt text](gambar_dokumentasi/16.png)
+![alt text](gambar_dokumentasi/17.png)
+Hasil :
+![alt text](gambar_dokumentasi/18.png)
