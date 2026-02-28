@@ -51,3 +51,13 @@ Tugas3
 ![alt text](gambar_dokumentasi/22.png)
 Hasil
 ![alt text](gambar_dokumentasi/23.png)
+
+F. Pertanyaan Evaluasi
+1. Apa fungsi utama _document.js?
+-> untuk mengedit struktur HTML dasar dari seluruh aplikasi Next.js
+2. Mengapa <title> tidak disarankan di _document.js?
+-> Karena _document.js hanya di-render sekali di server saat halaman pertama dimuat.Jadi semua title halaman akan sama
+3. Apa perbedaan halaman biasa dan halaman 404.js?
+-> halaman biasa muncul saat user memasukkan url yang benar sedangkan untuk 404 akan muncul jika url tidak menemukan file atau url salah
+4. Mengapa folder public tidak perlu di-import?
+-> karena semua yang berada di folder public bisa langsung digunakan tanpa perlu di import
