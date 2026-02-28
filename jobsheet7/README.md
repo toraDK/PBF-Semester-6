@@ -42,3 +42,9 @@ di repository
 ![alt text](gambar_dokumentasi/21.png)
 ![alt text](gambar_dokumentasi/23.png)
 ![alt text](gambar_dokumentasi/24.png)
+
+Tugas1
+![alt text](gambar_dokumentasi/25.png)
+![alt text](gambar_dokumentasi/26.png)
+Hasil :
+![alt text](gambar_dokumentasi/27.png)
