@@ -39,3 +39,10 @@ Halaman Landing Page
 ![alt text](gambar_dokumentasi/17.png)
 Hasil :
 ![alt text](gambar_dokumentasi/18.png)
+
+Tugas2
+![alt text](gambar_dokumentasi/19.png)
+![alt text](gambar_dokumentasi/20.png)
+
+Hasil :
+![alt text](gambar_dokumentasi/21.png)
