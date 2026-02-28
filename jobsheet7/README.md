@@ -31,5 +31,9 @@ di repository
 ![alt text](gambar_dokumentasi/17.png)
 ![alt text](gambar_dokumentasi/18.png)
 
-7.Langkah 8 – Konfigurasi Firebase
+7. Langkah 8 – Konfigurasi Firebase
 ![alt text](gambar_dokumentasi/19.png)
+
+8. Langkah 9 – Ambil Data dari Firestore
+![alt text](image.png)
+
