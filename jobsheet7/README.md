@@ -35,5 +35,10 @@ di repository
 ![alt text](gambar_dokumentasi/19.png)
 
 8. Langkah 9 – Ambil Data dari Firestore
-![alt text](image.png)
+![alt text](gambar_dokumentasi/20.png)
 
+9. Langkah 10 – API Mengambil Data Firebase
+![alt text](gambar_dokumentasi/22.png)
+![alt text](gambar_dokumentasi/21.png)
+![alt text](gambar_dokumentasi/23.png)
+![alt text](gambar_dokumentasi/24.png)
