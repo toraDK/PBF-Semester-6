@@ -61,3 +61,14 @@ Tugas3
 ![alt text](gambar_dokumentasi/33.png)
 Hasil :
 ![alt text](gambar_dokumentasi/34.png)
+
+Pertanyaan Evaluasi
+1. Apa fungsi API Routes pada Next.js?
+-> Menghubungkan aplikasi ke database, Menyimpan logic server, Menangani request GET, POST, PUT, DELETE
+2. Mengapa .env.local tidak boleh di-push ke repository?
+-> karena beris key key yang bersifat privasi.Jika terupload maka orang lain bisa mengakses database firebase menggunakan key tersebut
+3. Apa perbedaan data statis dan data dinamis?
+-> Data statis : Tidak berubah, Sudah tersedia saat build, langsung ditulis dikode
+-> Data Dinamis : Bisa berubah, Diambil dari API atau database
+4. Mengapa Next.js disebut framework fullstack?
+-> karena bisa mengatasi pada frontend : React component, Routing, Styling dan pada backend nya API Routes, Server-side rendering (SSR), Middleware, Integrasi database
