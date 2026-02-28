@@ -21,3 +21,7 @@ Hasil :
 ![alt text](gambar_dokumentasi/12.png)
 ![alt text](gambar_dokumentasi/13.png)
 ![alt text](gambar_dokumentasi/14.png)
+
+5. Langkah 6 – Install Firebase
+![alt text](gambar_dokumentasi/15.png)
+![alt text](gambar_dokumentasi/16.png)
