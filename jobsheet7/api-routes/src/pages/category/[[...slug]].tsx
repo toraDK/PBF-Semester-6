@@ -24,10 +24,23 @@ const Category = () => {
         });
     }, []);
 
+    const handleRefresh = () => {
+      fetch("/api/category")
+      .then((response) => response.json())
+      .then((responsedata) => {
+        console.log("Data category:", responsedata.data);
+        setCategory(responsedata.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching produk:", error);
+      });
+    };
+
   return (
     <div>
       <h1>Category: </h1>
-      
+      <button onClick={handleRefresh}>Refresh data</button>
+
       {slug ? (
       <ul>
         {Array.isArray(slug) ? (

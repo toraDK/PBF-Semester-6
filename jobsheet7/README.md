@@ -56,3 +56,8 @@ Tugas2
 Hasil :
 ![alt text](gambar_dokumentasi/31.png)
 ![alt text](gambar_dokumentasi/32.png)
+
+Tugas3
+![alt text](gambar_dokumentasi/33.png)
+Hasil :
+![alt text](gambar_dokumentasi/34.png)
