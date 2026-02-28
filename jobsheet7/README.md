@@ -28,5 +28,8 @@ Hasil :
 
 6. Langkah 7 – Konfigurasi Environment Variable agar credensial firebase tidak dapat dilihat saat dipush
 di repository
-![alt text](image.png)
-![alt text](image-1.png)
+![alt text](gambar_dokumentasi/17.png)
+![alt text](gambar_dokumentasi/18.png)
+
+7.Langkah 8 – Konfigurasi Firebase
+![alt text](gambar_dokumentasi/19.png)
