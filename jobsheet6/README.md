@@ -22,3 +22,8 @@ Hasil:
 
 Hasil:
 ![alt text](gambar_dokumentasi/11.png)
+
+6. Langkah 6 – Menampilkan Gambar dari Folder Public
+![alt text](gambar_dokumentasi/12.png)
+Hasil :
+![alt text](gambar_dokumentasi/13.png)
