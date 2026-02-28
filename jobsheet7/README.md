@@ -48,3 +48,11 @@ Tugas1
 ![alt text](gambar_dokumentasi/26.png)
 Hasil :
 ![alt text](gambar_dokumentasi/27.png)
+
+Tugas2
+![alt text](gambar_dokumentasi/28.png)
+![alt text](gambar_dokumentasi/29.png)
+![alt text](gambar_dokumentasi/30.png)
+Hasil :
+![alt text](gambar_dokumentasi/31.png)
+![alt text](gambar_dokumentasi/32.png)

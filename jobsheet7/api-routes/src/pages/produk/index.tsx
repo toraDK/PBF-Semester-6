@@ -8,7 +8,7 @@ type ProductType = {
     size: string;
 };
 
-const Kategori = () => {
+const Produk = () => {
     // const [isLogin, setIsLogin] = useState(false);
     // const { push } = useRouter();
     const [products, setProducts] = useState([]);
@@ -45,4 +45,4 @@ const Kategori = () => {
     );
 };
 
-export default Kategori;
+export default Produk;
