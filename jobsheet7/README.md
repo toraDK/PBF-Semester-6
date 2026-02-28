@@ -25,3 +25,8 @@ Hasil :
 5. Langkah 6 – Install Firebase
 ![alt text](gambar_dokumentasi/15.png)
 ![alt text](gambar_dokumentasi/16.png)
+
+6. Langkah 7 – Konfigurasi Environment Variable agar credensial firebase tidak dapat dilihat saat dipush
+di repository
+![alt text](image.png)
+![alt text](image-1.png)
