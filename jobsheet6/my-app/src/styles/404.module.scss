@@ -20,4 +20,14 @@
         font-size: 1.2rem;
         color: chartreuse;
     }
+
+    &_button{
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: aquamarine;
+        color: black;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
 }
