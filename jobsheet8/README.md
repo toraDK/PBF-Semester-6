@@ -44,3 +44,9 @@ Tugas 2
 ![alt text](gambar_dokumentasi/19.png)
 Hasil :
 ![alt text](gambar_dokumentasi/20.png)
+
+Tugas 3
+Halaman Category
+![alt text](gambar_dokumentasi/21.png)
+Hasil :
+![alt text](gambar_dokumentasi/22.png)

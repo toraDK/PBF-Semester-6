@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import useSWR from "swr";
+import fetcher from "../utils/swr/fetcher";
 
 type categoryType = {
     id: string;
@@ -12,28 +14,30 @@ const Category = () => {
 
     const [categories, setCategory] = useState([]);
 
-    useEffect(() => {
-        fetch("/api/category")
-        .then((response) => response.json())
-        .then((responsedata) => {
-            // console.log("Data produk:", responsedata.data);
-            setCategory(responsedata.data);
-        })
-        .catch((error) => {
-            console.error("Error fetching produk:", error);
-        });
-    }, []);
+    // useEffect(() => {
+    //     fetch("/api/category")
+    //     .then((response) => response.json())
+    //     .then((responsedata) => {
+    //         // console.log("Data produk:", responsedata.data);
+    //         setCategory(responsedata.data);
+    //     })
+    //     .catch((error) => {
+    //         console.error("Error fetching produk:", error);
+    //     });
+    // }, []);
+    const { data, error, isLoading, mutate } = useSWR( "/api/produk", fetcher);
 
     const handleRefresh = () => {
-      fetch("/api/category")
-      .then((response) => response.json())
-      .then((responsedata) => {
-        console.log("Data category:", responsedata.data);
-        setCategory(responsedata.data);
-      })
-      .catch((error) => {
-        console.error("Error fetching produk:", error);
-      });
+      // fetch("/api/category")
+      // .then((response) => response.json())
+      // .then((responsedata) => {
+      //   console.log("Data category:", responsedata.data);
+      //   setCategory(responsedata.data);
+      // })
+      // .catch((error) => {
+      //   console.error("Error fetching produk:", error);
+      // });
+      mutate();
     };
 
   return (
@@ -52,9 +56,9 @@ const Category = () => {
     ) : (
       <div>
         <h1>Daftar Category</h1>
-        {categories.map((category: categoryType) => (
-          <ol key={category.id}>
-            <li>{category.name}</li>
+        {data?.data?.map((item: categoryType) => (
+          <ol key={item.id}>
+            <li>{item.name}</li>
           </ol>
         ))}
       </div>
