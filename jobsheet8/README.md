@@ -37,3 +37,10 @@ Perbedaan Client Side Rendering, Server Side Rendering, Static Site Generation
 -> CSR adalah metode rendering di mana proses pengambilan data dan penampilan konten dilakukan di sisi browser user setelah halaman dimuat
 -> SSR adalah metode rendering di mana server memproses dan mengambil data terlebih dahulu, kemudian mengirimkan halaman HTML yang sudah lengkap ke browser user
 -> SSG adalah metode rendering di mana halaman sudah dibuat dan di-generate saat proses build aplikasi
+
+Tugas 2
+![alt text](gambar_dokumentasi/17.png)
+![alt text](gambar_dokumentasi/18.png)
+![alt text](gambar_dokumentasi/19.png)
+Hasil :
+![alt text](gambar_dokumentasi/20.png)

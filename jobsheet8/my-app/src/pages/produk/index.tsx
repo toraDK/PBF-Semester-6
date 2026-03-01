@@ -19,7 +19,7 @@ const Kategori = () => {
 
     return (
         <div>
-            <TampilanProduk products={isLoading ? [] : data.data} />
+            <TampilanProduk products={data?.data || []} isLoading={isLoading}/>
         </div>
     );
 };
