@@ -14,3 +14,14 @@ kode :
 ![alt text](gambar_dokumentasi/7.png)
 Hasil :
 ![alt text](gambar_dokumentasi/8.png)
+
+2. Bagian 3 – Implementasi Skeleton Loading
+Kode :
+![alt text](gambar_dokumentasi/9.png)
+![alt text](gambar_dokumentasi/10.png)
+Hasil :
+![alt text](gambar_dokumentasi/11.png)
+Kode :
+![alt text](gambar_dokumentasi/12.png)
+Hasil:
+![alt text](gambar_dokumentasi/13.png)
