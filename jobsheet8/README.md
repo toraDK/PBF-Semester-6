@@ -25,3 +25,9 @@ Kode :
 ![alt text](gambar_dokumentasi/12.png)
 Hasil:
 ![alt text](gambar_dokumentasi/13.png)
+
+3. Bagian 5 – Implementasi SWR
+![alt text](gambar_dokumentasi/14.png)
+![alt text](gambar_dokumentasi/15.png)
+Hasil :
+![alt text](gambar_dokumentasi/16.png)
