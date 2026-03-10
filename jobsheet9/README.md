@@ -39,3 +39,11 @@ muncul sekeleton terlebih dahulu sebelum muncul data
 -> Hasil SSR
 ![alt text](gambar_dokumentasi/9.png)
 tidak muncul sekeleton sebelum muncul data
+
+Tugas :
+1. Buat 2 halaman:
+    - /products (CSR)
+    ![alt text](gambar_dokumentasi/13.png)
+    - /products/server (SSR)
+    ![alt text](gambar_dokumentasi/12.png)
+
