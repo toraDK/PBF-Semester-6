@@ -17,7 +17,7 @@ const TampilanProduk = ({ products, isLoading, }: { products: ProductType[]; isL
 
             <div className={styles.produk__content}>
                 {isLoading
-                ? Array.from({ length: 1 }).map((_, index) => (
+                ? Array.from({ length: 6 }).map((_, index) => (
                     <div
                         key={index}
                         className={styles.produk__content__skeleton}
