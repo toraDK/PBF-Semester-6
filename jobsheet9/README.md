@@ -47,3 +47,22 @@ Tugas :
     - /products/server (SSR)
     ![alt text](gambar_dokumentasi/12.png)
 
+2. Dokumentasikan:
+    - Screenshot CSR
+    ![alt text](gambar_dokumentasi/14.png)
+    Hasil :
+    ![alt text](gambar_dokumentasi/13.png)
+    - Screenshot SSR
+    ![alt text](gambar_dokumentasi/15.png)
+    Hasil :
+    ![alt text](gambar_dokumentasi/12.png)
+    - Perbedaan Network tab
+    -> Hasil CSR
+    ![alt text](gambar_dokumentasi/10.png)
+    -> Hasil SSR
+    ![alt text](gambar_dokumentasi/11.png)
+    - Perbedaan View Source
+    -> Hasil CSR
+    ![alt text](gambar_dokumentasi/16.png)
+    -> Hasil SSR
+    ![alt text](gambar_dokumentasi/17.png)
