@@ -66,3 +66,13 @@ Tugas :
     ![alt text](gambar_dokumentasi/16.png)
     -> Hasil SSR
     ![alt text](gambar_dokumentasi/17.png)
+
+E. Studi Analisis
+1. Mengapa SSR lebih baik untuk SEO?
+    -> SSR lebih baik untuk SEO karena halaman sudah dirender di server sebelum dikirim ke browser
+2. Kapan sebaiknya menggunakan SSR?
+    -> SSR sebaiknya digunakan ketika halaman membutuhkan data yang selalu berubah dan harus ditampilkan langsung saat halaman dibuka
+3. Apa kekurangan SSR dibanding CSR?
+    -> Kekurangan SSR dibandingkan CSR adalah proses rendering terjadi di server untuk setiap request pengguna. Hal ini dapat meningkatkan beban server dan membuat waktu respon menjadi lebih lambat jika trafik pengguna sangat tinggi.
+4. Mengapa skeleton tidak muncul pada SSR?
+    -> Skeleton loading tidak muncul pada SSR karena data sudah diambil di server sebelum halaman dirender.
