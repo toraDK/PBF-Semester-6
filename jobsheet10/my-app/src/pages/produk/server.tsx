@@ -1,5 +1,5 @@
 import TampilanProduk from "@/views/product";
-import { ProductType } from "./produk.type";
+import { ProductType } from "../../types/produk.type";
 
 // type ProductType = {
 //   id: string;

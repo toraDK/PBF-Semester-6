@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import useSWR from "swr";
-import fetcher from "../utils/swr/fetcher";
+import fetcher from "@/utils/swr/fetcher";
 
 type categoryType = {
     id: string;
