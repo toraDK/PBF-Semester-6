@@ -56,6 +56,12 @@ Hasil :
 Pengujian
 Uji 1 – CSR
 Kode pada [product].tsx untuk CSR
-![alt text](image-1.png)
+![alt text](gambar_dokumentasi/24.png)
 Hasil :
 ![alt text](gambar_dokumentasi/HasilCSR.gif)
+
+Uji 2 – SSR
+Kode pada [product].tsx untuk SSR
+![alt text](gambar_dokumentasi/25.png)
+Hasil :
+![alt text](gambar_dokumentasi/HasilSSR.gif)
