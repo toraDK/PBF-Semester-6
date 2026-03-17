@@ -43,3 +43,12 @@ Edit kode [product].tsx
 Hasil :
 ![alt text](gambar_dokumentasi/18.png)
 ![alt text](gambar_dokumentasi/19.png)
+
+Bagian 4 – Implementasi Static Site Generation (Dynamic SSG)
+Edit kode [product].tsx
+![alt text](gambar_dokumentasi/20.png)
+Edit kode DetailProdduct/index.tsx
+![alt text](gambar_dokumentasi/21.png)
+Hasil :
+![alt text](gambar_dokumentasi/22.png)
+![alt text](gambar_dokumentasi/23.png)
