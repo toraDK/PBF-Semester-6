@@ -31,3 +31,11 @@ Menambahkan token revalidate ke file .env
 ![alt text](gambar_dokumentasi/11.png)
 edit kde revalidate
 ![alt text](gambar_dokumentasi/12.png)
+
+E. Pengujian Manual Revalidation
+Hasil jika memasukkan parameter token dengan benar di url
+![alt text](gambar_dokumentasi/13.png)
+Hasil jika memasukkan parameter token yang salah di url
+![alt text](gambar_dokumentasi/14.png)
+Hasil jika tanpa memasukkan parameter token di url
+![alt text](gambar_dokumentasi/15.png)
