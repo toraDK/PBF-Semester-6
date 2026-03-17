@@ -52,3 +52,10 @@ Edit kode DetailProdduct/index.tsx
 Hasil :
 ![alt text](gambar_dokumentasi/22.png)
 ![alt text](gambar_dokumentasi/23.png)
+
+Pengujian
+Uji 1 – CSR
+Kode pada [product].tsx untuk CSR
+![alt text](image-1.png)
+Hasil :
+![alt text](gambar_dokumentasi/HasilCSR.gif)

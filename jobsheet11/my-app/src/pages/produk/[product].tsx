@@ -4,19 +4,14 @@ import useSWR from "swr";
 import DetailProduk from "../../views/DetailProduct";
 import { ProductType } from "@/types/produk.type";
 
-const HalamanProduk = ({ product }: { product: ProductType }) => {
+const HalamanProduk = () => {
     // Digunakan jika menggunakan client-side rendering
-    /*
     const { query } = useRouter();
-    const { data, error, isLoading } = useSWR(
-        query.produk ? `/api/products/${query.produk}` : null,
-        fetcher
-    );
-    */
+    const { data, error, isLoading } = useSWR( query.product ? `/api/produk/${query.product}` : null, fetcher);
 
     return (
         <div>
-            <DetailProduk products={product} />
+            <DetailProduk products={isLoading || !data ? {} : data.data} />
         </div>
     );
 };
@@ -41,33 +36,33 @@ export default HalamanProduk;
 // }
 
 // {/digunakan static-site generation/}
-export async function getStaticPaths() {
-    const res = await fetch('http://localhost:3000/api/produk');
-    const response = await res.json();
+// export async function getStaticPaths() {
+//     const res = await fetch('http://localhost:3000/api/produk');
+//     const response = await res.json();
 
-    // Membuat daftar path berdasarkan ID produk yang ada di database
-    const paths = response.data.map((product: ProductType) => ({
-        params: { product: product.id }
-    }));
+//     // Membuat daftar path berdasarkan ID produk yang ada di database
+//     const paths = response.data.map((product: ProductType) => ({
+//         params: { product: product.id }
+//     }));
 
-    // console.log("Paths yang dihasilkan untuk produk:", paths); // Debugging
+//     // console.log("Paths yang dihasilkan untuk produk:", paths); // Debugging
 
-    return {
-        paths,
-        fallback: false // Jika ID tidak ada di paths, akan menampilkan 404
-    };
-}
+//     return {
+//         paths,
+//         fallback: false // Jika ID tidak ada di paths, akan menampilkan 404
+//     };
+// }
 
-export async function getStaticProps({ params }: { params: { product: string } }) {
-    // Mengambil data spesifik satu produk berdasarkan parameter ID
-    const res = await fetch(`http://localhost:3000/api/produk/${params?.product}`);
-    const response: { data: ProductType } = await res.json();
+// export async function getStaticProps({ params }: { params: { product: string } }) {
+//     // Mengambil data spesifik satu produk berdasarkan parameter ID
+//     const res = await fetch(`http://localhost:3000/api/produk/${params?.product}`);
+//     const response: { data: ProductType } = await res.json();
 
-    // console.log("Data produk yang diambil dari API:", response);
+//     // console.log("Data produk yang diambil dari API:", response);
 
-    return {
-        props: {
-        product: response.data,
-        }
-    };
-}
+//     return {
+//         props: {
+//         product: response.data,
+//         }
+//     };
+// }
