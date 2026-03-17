@@ -36,3 +36,10 @@ modifikasi file detailProduct.module.scss agar title ditengah
 ![alt text](gambar_dokumentasi/15.png)
 Hasil :
 ![alt text](gambar_dokumentasi/16.png)
+
+Bagian 3 – Implementasi SSR
+Edit kode [product].tsx
+![alt text](gambar_dokumentasi/17.png)
+Hasil :
+![alt text](gambar_dokumentasi/18.png)
+![alt text](gambar_dokumentasi/19.png)
