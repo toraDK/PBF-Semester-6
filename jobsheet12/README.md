@@ -18,3 +18,10 @@ Hasil tampilan website setelah 10 detik
 #### On-Demand Revalidation
 Bagian 1 – Buat API Revalidate
 ![alt text](gambar_dokumentasi/7.png)
+
+Bagian 2 – Tambahkan Parameter Data
+![alt text](gambar_dokumentasi/8.png)
+Hasil url http://localhost:3000/api/revalidate?data=produk
+![alt text](gambar_dokumentasi/9.png)
+hadil url http://localhost:3000/api/revalidate?data=
+![alt text](gambar_dokumentasi/10.png)
