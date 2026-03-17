@@ -65,3 +65,21 @@ Kode pada [product].tsx untuk SSR
 ![alt text](gambar_dokumentasi/25.png)
 Hasil :
 ![alt text](gambar_dokumentasi/HasilSSR.gif)
+
+Uji 3 – SSG
+Kode SSG pada [product].tsx
+![alt text](gambar_dokumentasi/26.png)
+Hasil Build
+![alt text](gambar_dokumentasi/27.png)
+Tampilan Web
+![alt text](gambar_dokumentasi/28.png)
+Data sebelum ditambah pada firestore
+![alt text](gambar_dokumentasi/29.png)
+Data Baru
+![alt text](gambar_dokumentasi/30.png)
+Hasil data baru tidak akan muncul
+![alt text](gambar_dokumentasi/HasilSSG.gif)
+Build Ulang
+![alt text](gambar_dokumentasi/31.png)
+Hasil Build ulang
+![alt text](gambar_dokumentasi/32.png)
