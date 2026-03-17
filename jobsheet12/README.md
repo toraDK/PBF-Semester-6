@@ -14,3 +14,7 @@ tambah data baru di firestore
 ![alt text](gambar_dokumentasi/5.png)
 Hasil tampilan website setelah 10 detik
 ![alt text](gambar_dokumentasi/6.png)
+
+#### On-Demand Revalidation
+Bagian 1 – Buat API Revalidate
+![alt text](gambar_dokumentasi/7.png)
