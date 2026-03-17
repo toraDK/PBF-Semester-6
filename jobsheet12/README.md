@@ -25,3 +25,9 @@ Hasil url http://localhost:3000/api/revalidate?data=produk
 ![alt text](gambar_dokumentasi/9.png)
 hadil url http://localhost:3000/api/revalidate?data=
 ![alt text](gambar_dokumentasi/10.png)
+
+Bagian 3 – Tambahkan Token Security
+Menambahkan token revalidate ke file .env
+![alt text](gambar_dokumentasi/11.png)
+edit kde revalidate
+![alt text](gambar_dokumentasi/12.png)
