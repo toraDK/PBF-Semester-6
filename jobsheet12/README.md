@@ -39,3 +39,18 @@ Hasil jika memasukkan parameter token yang salah di url
 ![alt text](gambar_dokumentasi/14.png)
 Hasil jika tanpa memasukkan parameter token di url
 ![alt text](gambar_dokumentasi/15.png)
+
+H. Pertanyaan Analisis
+1. Mengapa ISR lebih fleksibel dibanding SSG?
+-> SSG bersifat kaku karena halaman hanya dibuat sekali saat proses build. Jika ada perubahan data, maka harus melakukan build ulang seluruh aplikasi.
+-> ISR lebih fleksibel karena memungkinkan memperbarui halaman statis secara individu di latar belakang tanpa build ulang penuh.
+2. Apa perbedaan revalidate waktu dan on-demand?
+-> Revalidate   : Halaman akan diperbarui otomatis secara berkala setiap waktu yang ditentukan jika ada pengunjung.
+-> On-Demand    : Menggunakan API Route manual seperti res.revalidate(). Halaman hanya akan diperbarui saat memicu endpoint tersebut, misalnya tepat setelah mengklik tombol simpan di Firebase.
+3. Mengapa endpoint revalidation harus diamankan?
+-> Jika endpoint ini terbuka untuk publik, orang jahat bisa melakukan serangan DoS dengan memanggil URL tersebut ribuan kali secara terus-menerus, yang bisa membuat server crash karena kelelahan memproses render ulang.
+4. Apa risiko jika token tidak digunakan?
+-> siapa pun dapat mengetahui URL API sehingga dapat memicu pembaruan data.Sehingga bisa jadi ada orang yang iseng memanggil URL tersebut ribuan kali secara terus-menerus dan dapat membuat server crash karena kelelahan memproses render ulang.
+5. Kapan ISR lebih cocok dibanding SSR?
+-> ISR: Cocok jika memprioritaskan kecepatan akses seperti loading dan SEO, namun toleran terhadap sedikit keterlambatan perubahan data.
+-> SSR: Lebih cocok jika halaman tersebut sangat personal seperti keranjang belanja atau datanya berubah setiap detik dan harus 100% akurat saat itu juga seperti harga saham atau tiket konser.
