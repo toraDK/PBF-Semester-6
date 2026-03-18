@@ -20,3 +20,8 @@ Bagian 4 – Batasi Route Tertentu
 ![alt text](gambar_dokumentasi/7.png)
 Hasil :
 ![alt](gambar_dokumentasi/hasilMiddleware.gif)
+
+Bagian 5 – Simulasi Sistem Login
+![alt text](gambar_dokumentasi/8.png)
+Hasil :
+![alt](gambar_dokumentasi/hasilMiddlewareKeLogin.gif)
