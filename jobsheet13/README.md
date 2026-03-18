@@ -15,3 +15,8 @@ kode middleware
 ![alt text](gambar_dokumentasi/5.png)
 Saat ke url produk hasilnya akan auto redirect ke home dan error karena terus menerus loading
 ![alt text](gambar_dokumentasi/6.png)
+
+Bagian 4 – Batasi Route Tertentu
+![alt text](gambar_dokumentasi/7.png)
+Hasil :
+![alt](gambar_dokumentasi/hasilMiddleware.gif)
