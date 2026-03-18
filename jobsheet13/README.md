@@ -48,3 +48,16 @@ mengedit index pada produk untuk handler button login agar saat button logout di
 ![alt text](gambar_dokumentasi/13.png)
 Hasil Akhir :
 ![alt](gambar_dokumentasi/hasileditmiddleware.gif)
+
+Pertanyaan Analisis
+1. Mengapa middleware lebih aman dibanding useEffect?
+-> Middleware lebih aman karena bekerja di Sisi Server sebelum halaman dikirim ke browser.
+2. Mengapa middleware tidak menimbulkan glitch?
+-> Glitch terjadi pada useEffect karena ada jeda waktu antara proses render pertama dan eksekusi kode cek login. Karena Middleware berjalan sebelum proses rendering dimulai, Next.js sudah menentukan apakah user boleh melihat halaman tersebut atau harus pindah ke halaman lain.
+3. Apa risiko jika semua halaman diproteksi tanpa pengecualian?
+-> Jika semua halaman termasuk /auth/login di proteksi maka akan terjadi Infinite Redirect Loop. Middleware akan mengecek apakah user belum login, dan akan mengalihkan ke /auth/login karena belum login. Ini akan terus berulang sampai browser menampilkan error "Too many redirects".
+4. Kapan middleware tidak diperlukan?
+-> Halaman yang memang boleh dilihat siapa saja seperti Landing Page, Blog publik, atau Dokumentasi.
+5. Apa perbedaan middleware dan API route?
+-> Middleware : mengatur lalu lintas request.
+-> API routes : Menangani logika bisnis seperti CRUD, koneksi database, mengirim email.
