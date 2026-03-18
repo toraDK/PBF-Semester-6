@@ -25,3 +25,16 @@ Bagian 5 – Simulasi Sistem Login
 ![alt text](gambar_dokumentasi/8.png)
 Hasil :
 ![alt](gambar_dokumentasi/hasilMiddlewareKeLogin.gif)
+
+##### Pengujian
+Uji 1 – isLogin = false
+Hasil :
+![alt](gambar_dokumentasi/hasilMiddlewareKeLogin.gif)
+
+Uji 2 – isLogin = true
+![alt text](gambar_dokumentasi/9.png)
+![alt](gambar_dokumentasi/isLoginTrue.gif)
+
+Uji 3 – Tambahkan Multiple Route
+![alt text](gambar_dokumentasi/10.png)
+![alt](gambar_dokumentasi/uji3.gif)
