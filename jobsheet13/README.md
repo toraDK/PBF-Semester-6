@@ -38,3 +38,13 @@ Uji 2 – isLogin = true
 Uji 3 – Tambahkan Multiple Route
 ![alt text](gambar_dokumentasi/10.png)
 ![alt](gambar_dokumentasi/uji3.gif)
+
+##### Implementasi Middleware Redirect ke /login jika belum login dan Izinkan akses jika login true.
+Kode Middleware :
+![alt text](gambar_dokumentasi/11.png)
+mengedit file index pada login untuk handler button login dengan menyeting cookies agar bernilai true saat di klik dengan bantuan library js-cookies :
+![alt text](gambar_dokumentasi/12.png)
+mengedit index pada produk untuk handler button login agar saat button logout dikklik cookies login hilang dan berpindah ke halaman auth/login
+![alt text](gambar_dokumentasi/13.png)
+Hasil Akhir :
+![alt](gambar_dokumentasi/hasileditmiddleware.gif)

@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import TampilanProduk from "../../views/product";
 import useSWR from "swr";
 import fetcher from "@/utils/swr/fetcher";
+import Cookies from "js-cookie";
 
 // const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
@@ -12,6 +13,11 @@ const Kategori = () => {
     const [products, setProducts] = useState([]);
     // console.log("products:", products);
 
+    const handlerLogin = () => {
+        Cookies.remove("isLogin");
+        push("/auth/login");
+    }
+
     const { data, error, isLoading } = useSWR("/api/produk", fetcher);
     //cek apakah data, error, dan isLoading sudah benar
     // console.log("data:", data);
@@ -20,6 +26,9 @@ const Kategori = () => {
 
     return (
         <div>
+            <button onClick={() => handlerLogin()}>
+                Logout
+            </button>
             <TampilanProduk products={data?.data || []} isLoading={isLoading}/>
         </div>
     );

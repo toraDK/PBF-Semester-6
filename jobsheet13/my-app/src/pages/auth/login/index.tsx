@@ -2,12 +2,13 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 // import styles from "./login.module.css";
 import styles from "./login.module.scss";
-
+import Cookies from "js-cookie";
 
 const HalamanLogin = () => {
     const { push } = useRouter();
 
     const handlerLogin = () => {
+        Cookies.set("isLogin", "true", { expires: 1 });
         sessionStorage.setItem("isLogin", "true");
         push("/produk");
     }

@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
-    const isLogin = false;
+    const isLogin = request.cookies.get("isLogin")?.value === "true";
     if (isLogin) {
         return NextResponse.next();
     } else {
