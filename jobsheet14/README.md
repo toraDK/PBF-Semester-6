@@ -12,3 +12,7 @@ Generate nilai random base64
 ![alt text](gambar_dokumentasi/4.png)
 copy hasil generate nilai random base64 ke file .env
 ![alt text](gambar_dokumentasi/5.png)
+
+Bagian 4 – Tambahkan SessionProvider
+memodifikasi file _app.tsx
+![alt text](gambar_dokumentasi/6.png)
