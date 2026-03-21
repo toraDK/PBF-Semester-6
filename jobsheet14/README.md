@@ -40,8 +40,15 @@ Modifikasi component navbar
 Hasil :
 ![alt](gambar_dokumentasi/Hasilnext-authCredentials3.gif)
 
-Langkah 7 – Proteksi Halaman Profile
+##### Proteksi Halaman Profile
+Langkah 7 – Buat Halaman Profile
 file profile/index.tsx
 ![alt text](gambar_dokumentasi/14.png)
 Hasil :
 ![alt text](gambar_dokumentasi/15.png)
+
+Langkah 8 – Buat Middleware Authorization
+Isi file baru withAuth.ts
+![alt text](gambar_dokumentasi/16.png)
+Perubahan kode pada middleware.ts
+![alt text](gambar_dokumentasi/17.png)
