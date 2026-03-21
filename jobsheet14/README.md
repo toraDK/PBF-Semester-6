@@ -28,3 +28,14 @@ edit file index.tsx untuk mendapatkan session nya
 ![alt text](gambar_dokumentasi/9.png)
 Hasil :
 ![alt](gambar_dokumentasi/Hasilnext-authCredentials2.gif)
+
+Langkah 6 – Menambahkan Data Tambahan (Full Name)
+Edit kode pada file [...nextauth].ts
+![alt text](gambar_dokumentasi/10.png)
+![alt text](gambar_dokumentasi/11.png)
+Modifikasi style navbar
+![alt text](gambar_dokumentasi/12.png)
+Modifikasi component navbar
+![alt text](gambar_dokumentasi/13.png)
+Hasil :
+![alt](gambar_dokumentasi/Hasilnext-authCredentials3.gif)
