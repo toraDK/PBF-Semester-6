@@ -52,3 +52,13 @@ Isi file baru withAuth.ts
 ![alt text](gambar_dokumentasi/16.png)
 Perubahan kode pada middleware.ts
 ![alt text](gambar_dokumentasi/17.png)
+
+Pengujian 
+Uji 1 – Belum Login
+![alt](gambar_dokumentasi/belumLogin.gif)
+
+Uji 2 – Sudah Login
+![alt](gambar_dokumentasi/Login.gif)
+
+Uji 3 – Logout
+![alt](gambar_dokumentasi/logout.gif)
