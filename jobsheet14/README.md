@@ -39,3 +39,9 @@ Modifikasi component navbar
 ![alt text](gambar_dokumentasi/13.png)
 Hasil :
 ![alt](gambar_dokumentasi/Hasilnext-authCredentials3.gif)
+
+Langkah 7 – Proteksi Halaman Profile
+file profile/index.tsx
+![alt text](gambar_dokumentasi/14.png)
+Hasil :
+![alt text](gambar_dokumentasi/15.png)
