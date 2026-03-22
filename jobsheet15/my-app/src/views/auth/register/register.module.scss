@@ -52,23 +52,29 @@
     }
   }
 
-button {
-        width: 100%;
-        padding: 12px;
-        border-radius: 10px;
-        border: none;
-        background: #2a5298;
-        color: #ffffff;
-        font-weight: 600;
-        cursor: pointer;
-        transition: 0.3s ease;
+  &__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+  }
 
-        &:hover {
-          background: #1e3c72;
-          transform: translateY(-2px);
-        }
-      }
+  button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #2a5298;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+      background: #1e3c72;
+      transform: translateY(-2px);
     }
+  }
+}
 
 /* Animation */
 @keyframes fadeIn {
