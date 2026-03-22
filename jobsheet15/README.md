@@ -36,3 +36,13 @@ Hasil register:
 ![alt](gambar_dokumentasi/register2.gif)
 Hasil saat melakukan registrasi dengan email yang sama :
 ![alt](gambar_dokumentasi/register3.gif)
+
+Pengujian
+Uji 1 – Register Baru
+![alt](gambar_dokumentasi/register2.gif)
+
+Uji 2 – Email Sudah Ada
+![alt](gambar_dokumentasi/register3.gif)
+
+Uji 3 – Method GET
+![alt text](gambar_dokumentasi/14.png)
