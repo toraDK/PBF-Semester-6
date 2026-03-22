@@ -46,3 +46,23 @@ Uji 2 – Email Sudah Ada
 
 Uji 3 – Method GET
 ![alt text](gambar_dokumentasi/14.png)
+
+Tugas
+1. menambahkan validasi untuk email dan password minimal 6 karakter
+Mengedit file servicefirebase.ts untuk menambahkan validasi email dan password
+![alt text](gambar_dokumentasi/15.png)
+
+2. menampilkan pessan error di ui
+edit file api/register.ts untuk bisa mengirimkan hasil erro dari servicefirebase ke view register
+![alt text](gambar_dokumentasi/16.png)
+mengambil data dari response dan menampilkan messagenya
+![alt text](gambar_dokumentasi/17.png)
+
+3. menambahkan role default "member"
+![alt text](gambar_dokumentasi/18.png)
+
+Hasil error :
+![alt](gambar_dokumentasi/register4.gif)
+
+Hasil berhasil :
+![alt](gambar_dokumentasi/register5.gif)

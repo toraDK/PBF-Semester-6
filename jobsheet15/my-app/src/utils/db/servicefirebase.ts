@@ -38,6 +38,21 @@ export async function signUp(
   },
   callback: (any) => void,
 ) {
+
+  if (!userData.email) {
+    return callback({
+      status: "error",
+      message: "Invalid email format",
+    });
+  }
+
+  if (!userData.password || userData.password.length < 6) {
+    return callback({
+      status: "error",
+      message: "Password must be at least 6 characters long",
+    });
+  }
+
   const q = query(
     collection(db, "users"),
     where("email", "==", userData.email)
@@ -61,7 +76,7 @@ export async function signUp(
     });
   } else {
   userData.password = await bcrypt.hash(userData.password, 10);
-  userData.role = "user";
+  userData.role = "member";
   await addDoc(collection(db, "users"), userData)
     .then(() => {
       callback({
