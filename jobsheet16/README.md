@@ -21,3 +21,9 @@ Hasil :
 BAGIAN 3 – Authorize di NextAuth (Database Login)
 mengedit bagian providers pada [...nextauth].ts
 ![alt text](gambar_dokumentasi/8.png)
+
+BAGIAN 4 – Tambahkan Role ke Token
+modifikasi jwt callback pada [...nextauth].ts
+![alt text](gambar_dokumentasi/9.png)
+Hasil :
+![alt](gambar_dokumentasi/gif2.gif)
