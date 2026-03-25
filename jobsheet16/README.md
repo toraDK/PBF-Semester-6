@@ -27,3 +27,7 @@ modifikasi jwt callback pada [...nextauth].ts
 ![alt text](gambar_dokumentasi/9.png)
 Hasil :
 ![alt](gambar_dokumentasi/gif2.gif)
+
+BAGIAN 5 – Callback URL Logic
+Edit middleware agar saat user login dapat kembali ke halaman sebelumnya
+![alt text](image.png)
