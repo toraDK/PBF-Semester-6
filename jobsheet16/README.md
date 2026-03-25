@@ -17,3 +17,7 @@ menambahkan kode di servicefirebase.ts untuk login
 ![alt text](gambar_dokumentasi/6.png)
 Hasil :
 ![alt text](gambar_dokumentasi/7.png)
+
+BAGIAN 3 – Authorize di NextAuth (Database Login)
+mengedit bagian providers pada [...nextauth].ts
+![alt text](gambar_dokumentasi/8.png)
