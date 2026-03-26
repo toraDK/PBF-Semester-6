@@ -41,3 +41,14 @@ Hasil jika login role member
 ![alt](gambar_dokumentasi/gif3.gif)
 Hasil jika login role admin
 ![alt](gambar_dokumentasi/gif4.gif)
+
+
+Pengujian
+Uji 1 – Login Valid
+![alt](gambar_dokumentasi/gif5.gif)
+Uji 2 – Password Salah
+![alt text](gambar_dokumentasi/12.png)
+Uji 3 – Akses Admin sebagai User
+![alt](gambar_dokumentasi/gif3.gif)
+Uji 4 – Akses Admin sebagai Admin
+![alt](gambar_dokumentasi/gif4.gif)
