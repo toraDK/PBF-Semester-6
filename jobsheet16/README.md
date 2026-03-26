@@ -52,3 +52,15 @@ Uji 3 – Akses Admin sebagai User
 ![alt](gambar_dokumentasi/gif3.gif)
 Uji 4 – Akses Admin sebagai Admin
 ![alt](gambar_dokumentasi/gif4.gif)
+
+Pertanyaan Analisis
+1. Mengapa password harus diverifikasi dengan bcrypt.compare?
+-> password disimpan dalam bentuk hash saat disimpan tidak dalam bentuk teks biasa. bcrypt.compare digunakan untuk mencocokkan input user dengan hash di database
+2. Mengapa role disimpan di token?
+-> Dengan menyimpan role di token, middleware bisa langsung membaca data tersebut dari cookie untuk menentukan apakah user boleh mengakses halaman admin atau tidak
+3. Apa fungsi callbackUrl?
+-> callbackUrl berfungsi sebagai pengingat alamat asal pengguna.
+4. Mengapa middleware penting untuk security?
+-> middleware penting sebagai gerbang utama aplikasi. Jika user tidak punya izin, middleware akan langsung memblokir akses user
+5. Apa risiko jika role tidak dicek di middleware?
+-> Jika halaman admin berisi fungsi hapus user atau ubah harga, user biasa bisa merusak  data aplikasi hanya dengan mengetahui alamat URL-nya.
