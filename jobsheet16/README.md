@@ -30,4 +30,14 @@ Hasil :
 
 BAGIAN 5 – Callback URL Logic
 Edit middleware agar saat user login dapat kembali ke halaman sebelumnya
-![alt text](image.png)
+![alt text](gambar_dokumentasi/9.png)
+
+BAGIAN 6 – Membuat halaman Admin dan authoriz
+Membuat halaman admin
+![alt text](gambar_dokumentasi/10.png)
+Modifikasi withAuth.ts untuk pengecekan role admin
+![alt text](gambar_dokumentasi/11.png)
+Hasil jika login role member
+![alt](gambar_dokumentasi/gif3.gif)
+Hasil jika login role admin
+![alt](gambar_dokumentasi/gif4.gif)

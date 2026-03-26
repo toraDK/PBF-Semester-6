@@ -13,10 +13,10 @@ const Kategori = () => {
     const [products, setProducts] = useState([]);
     // console.log("products:", products);
 
-    const handlerLogin = () => {
-        Cookies.remove("isLogin");
-        push("/auth/login");
-    }
+    // const handlerLogin = () => {
+    //     Cookies.remove("isLogin");
+    //     push("/auth/login");
+    // }
 
     const { data, error, isLoading } = useSWR("/api/produk", fetcher);
     //cek apakah data, error, dan isLoading sudah benar
@@ -26,9 +26,6 @@ const Kategori = () => {
 
     return (
         <div>
-            <button onClick={() => handlerLogin()}>
-                Logout
-            </button>
             <TampilanProduk products={data?.data || []} isLoading={isLoading}/>
         </div>
     );
