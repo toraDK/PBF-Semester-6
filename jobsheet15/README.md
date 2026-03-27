@@ -1,50 +1,64 @@
 Langkah 1 – Membuat Register View
-edit kode pages/auth/register/index.tsx
+<br>
+edit kode pages/auth/register/index.tsx<br>
 ![alt text](gambar_dokumentasi/1.png)
-Membuat file baru dan isi kode pada file views/auth/register/index.tsx
+<br>
+Membuat file baru dan isi kode pada file views/auth/register/index.tsx<br>
 ![alt text](gambar_dokumentasi/2.png)
-Menambahkan styling pada view register
+<br>
+Menambahkan styling pada view register<br>
 ![alt text](gambar_dokumentasi/3.png)
-Hasil :
+<br>
+Hasil :<br>
 ![alt text](gambar_dokumentasi/4.png)
-
+<br><br>
 Langkah 2 – Membuat API Register
-edit file servicefirebase.ts
+<br>
+edit file servicefirebase.ts<br>
 ![alt text](gambar_dokumentasi/5.png)
-membuat file register.ts
+<br>
+membuat file register.ts<br>
 ![alt text](gambar_dokumentasi/6.png)
-edit view register
+<br>
+edit view register<br>
 ![alt text](gambar_dokumentasi/7.png)
-Hasil :
+<br>
+Hasil :<br>
 ![alt](gambar_dokumentasi/register1.gif)
-
+<br><br>
 Langkah 3 – Install bcrypt
-menginstall bcrypt
+<br>
+menginstall bcrypt<br>
 ![alt text](gambar_dokumentasi/8.png)
-modifikasi file servicefirebase.ts
+modifikasi file servicefirebase.ts<br>
 ![alt text](gambar_dokumentasi/9.png)
-###### melakukan beberapa perubahan agar sistem tidak memproses inputan user saat data yang dimasukkan sama dengan yang ada di database
+<br><br>
+#### melakukan beberapa perubahan agar sistem tidak memproses inputan user saat data yang dimasukkan sama dengan yang ada di database
+<br>
 view register
-perubahan pada pesan error
+<br>
+perubahan pada pesan error<br>
 ![alt text](gambar_dokumentasi/10.png)
-Menampilkan pemberitahuan kepada user saat ada error
-![alt text](gambar_dokumentasi/11.png)
+<br>
+Menampilkan pemberitahuan kepada user saat ada error<br>
+![alt text](gambar_dokumentasi/11.png)<br>
 ![alt text](gambar_dokumentasi/12.png)
-styling error di file scss
+<br>
+styling error di file scss<br>
 ![alt text](gambar_dokumentasi/13.png)
-Hasil register:
+Hasil register:<br>
 ![alt](gambar_dokumentasi/register2.gif)
-Hasil saat melakukan registrasi dengan email yang sama :
+Hasil saat melakukan registrasi dengan email yang sama :<br>
 ![alt](gambar_dokumentasi/register3.gif)
-
+<br><br>
 Pengujian
-Uji 1 – Register Baru
+Uji 1 – Register Baru<br>
 ![alt](gambar_dokumentasi/register2.gif)
-
-Uji 2 – Email Sudah Ada
+<br>
+Uji 2 – Email Sudah Ada<br>
 ![alt](gambar_dokumentasi/register3.gif)
-
-Uji 3 – Method GET
+<br>
+Uji 3 – Method GET<br>
 ![alt text](gambar_dokumentasi/14.png)
 
 Tugas
