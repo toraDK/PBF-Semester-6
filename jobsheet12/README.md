@@ -42,15 +42,15 @@ Hasil jika tanpa memasukkan parameter token di url<br>
 
 H. Pertanyaan Analisis
 1. Mengapa ISR lebih fleksibel dibanding SSG?
--> SSG bersifat kaku karena halaman hanya dibuat sekali saat proses build. Jika ada perubahan data, maka harus melakukan build ulang seluruh aplikasi.
--> ISR lebih fleksibel karena memungkinkan memperbarui halaman statis secara individu di latar belakang tanpa build ulang penuh.
+<br>-> SSG bersifat kaku karena halaman hanya dibuat sekali saat proses build. Jika ada perubahan data, maka harus melakukan build ulang seluruh aplikasi.
+<br>-> ISR lebih fleksibel karena memungkinkan memperbarui halaman statis secara individu di latar belakang tanpa build ulang penuh.
 2. Apa perbedaan revalidate waktu dan on-demand?
--> Revalidate   : Halaman akan diperbarui otomatis secara berkala setiap waktu yang ditentukan jika ada pengunjung.
--> On-Demand    : Menggunakan API Route manual seperti res.revalidate(). Halaman hanya akan diperbarui saat memicu endpoint tersebut, misalnya tepat setelah mengklik tombol simpan di Firebase.
+<br>-> Revalidate   : Halaman akan diperbarui otomatis secara berkala setiap waktu yang ditentukan jika ada pengunjung.
+<br>-> On-Demand    : Menggunakan API Route manual seperti res.revalidate(). Halaman hanya akan diperbarui saat memicu endpoint tersebut, misalnya tepat setelah mengklik tombol simpan di Firebase.
 3. Mengapa endpoint revalidation harus diamankan?
--> Jika endpoint ini terbuka untuk publik, orang jahat bisa melakukan serangan DoS dengan memanggil URL tersebut ribuan kali secara terus-menerus, yang bisa membuat server crash karena kelelahan memproses render ulang.
+<br>-> Jika endpoint ini terbuka untuk publik, orang jahat bisa melakukan serangan DoS dengan memanggil URL tersebut ribuan kali secara terus-menerus, yang bisa membuat server crash karena kelelahan memproses render ulang.
 4. Apa risiko jika token tidak digunakan?
--> siapa pun dapat mengetahui URL API sehingga dapat memicu pembaruan data.Sehingga bisa jadi ada orang yang iseng memanggil URL tersebut ribuan kali secara terus-menerus dan dapat membuat server crash karena kelelahan memproses render ulang.
+<br>-> siapa pun dapat mengetahui URL API sehingga dapat memicu pembaruan data.Sehingga bisa jadi ada orang yang iseng memanggil URL tersebut ribuan kali secara terus-menerus dan dapat membuat server crash karena kelelahan memproses render ulang.
 5. Kapan ISR lebih cocok dibanding SSR?
--> ISR: Cocok jika memprioritaskan kecepatan akses seperti loading dan SEO, namun toleran terhadap sedikit keterlambatan perubahan data.
--> SSR: Lebih cocok jika halaman tersebut sangat personal seperti keranjang belanja atau datanya berubah setiap detik dan harus 100% akurat saat itu juga seperti harga saham atau tiket konser.
+<br>-> ISR: Cocok jika memprioritaskan kecepatan akses seperti loading dan SEO, namun toleran terhadap sedikit keterlambatan perubahan data.
+<br>-> SSR: Lebih cocok jika halaman tersebut sangat personal seperti keranjang belanja atau datanya berubah setiap detik dan harus 100% akurat saat itu juga seperti harga saham atau tiket konser.

@@ -94,13 +94,13 @@ Tabel Perbandingan
 
 Pertanyaan Analisis
 1. Mengapa getStaticPaths wajib pada dynamic SSG?
--> semua halaman harus diubah menjadi file HTML statis saat proses build. Karena rute dinamis seperti [product].tsx tidak memiliki nama file yang tetap, Next.js perlu mengetahui daftar ID atau parameter apa saja yang ada di database.Tanpa getStaticPaths, Next.js tidak akan tahu berapa banyak file HTML yang harus dibuat untuk folder tersebut.
+<br>-> semua halaman harus diubah menjadi file HTML statis saat proses build. Karena rute dinamis seperti [product].tsx tidak memiliki nama file yang tetap, Next.js perlu mengetahui daftar ID atau parameter apa saja yang ada di database.Tanpa getStaticPaths, Next.js tidak akan tahu berapa banyak file HTML yang harus dibuat untuk folder tersebut.
 2. Mengapa CSR membutuhkan loading state?
--> browser awalnya menerima file HTML yang hampir kosong. Pengambilan data baru dilakukan setelah halaman dimuat di browser menggunakan JavaScript seperti useSWR. Selama proses menunggu data dari API atau Firebase selesai, variabel data akan bernilai undefined, sehingga dibutuhkan loading state agar aplikasi tidak crash dan pengguna tahu bahwa data sedang diproses.
+<br>-> browser awalnya menerima file HTML yang hampir kosong. Pengambilan data baru dilakukan setelah halaman dimuat di browser menggunakan JavaScript seperti useSWR. Selama proses menunggu data dari API atau Firebase selesai, variabel data akan bernilai undefined, sehingga dibutuhkan loading state agar aplikasi tidak crash dan pengguna tahu bahwa data sedang diproses.
 3. Mengapa SSG tidak menampilkan produk baru tanpa build ulang?
--> Karena pada SSG, data diambil menjadi file HTML statis pada saat menjalankan perintah npm run build. Jika ada data baru di Firebase setelah proses tersebut, file HTML yang sudah terlanjur dibuat tidak akan berubah secara otomatis. Next.js hanya akan menyajikan file yang sudah ada di server kecuali jika melakukan build ulang
+<br>-> Karena pada SSG, data diambil menjadi file HTML statis pada saat menjalankan perintah npm run build. Jika ada data baru di Firebase setelah proses tersebut, file HTML yang sudah terlanjur dibuat tidak akan berubah secara otomatis. Next.js hanya akan menyajikan file yang sudah ada di server kecuali jika melakukan build ulang
 4. Mana metode terbaik untuk halaman detail e-commerce?
--> SSR metode yang bagus karena jika harga atau stok produk berubah sangat cepat setiap detik misalnya maka data selalu diambil yang paling baru setiap kali halaman diakses.
+<br>-> SSR metode yang bagus karena jika harga atau stok produk berubah sangat cepat setiap detik misalnya maka data selalu diambil yang paling baru setiap kali halaman diakses.
 5. Apa risiko menggunakan SSG untuk produk yang sering berubah?
--> nformasi seperti stok atau harga mungkin sudah berubah di database, tetapi user masih melihat data lama yang ada di file HTML statis
--> User mungkin bisa memesan produk yang sebenarnya sudah habis karena tampilan masih menunjukkan stok tersedia.
+<br>-> nformasi seperti stok atau harga mungkin sudah berubah di database, tetapi user masih melihat data lama yang ada di file HTML statis
+<br>-> User mungkin bisa memesan produk yang sebenarnya sudah habis karena tampilan masih menunjukkan stok tersedia.

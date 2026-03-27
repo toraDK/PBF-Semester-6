@@ -87,13 +87,13 @@ Hasil berhasil :<br>
 
 H. Pertanyaan Analisis
 1. Mengapa password harus di-hash?
--> agar saat password disimpan di database aman.dengan hasing orang lain tidak bisa melihat apa passwordnya yang mengetahui password hanya orang yang membuat passwordnya
+<br>-> agar saat password disimpan di database aman.dengan hasing orang lain tidak bisa melihat apa passwordnya yang mengetahui password hanya orang yang membuat passwordnya
 2. Apa perbedaan addDoc dan setDoc?
--> addDoc pada firestore akan membuatkan ID dokumen secara otomatis yang bersifat acak dan unik.
--> setDoc adalah kebalikan dari addDoc kegunaannya untuk menambahkan ID dokumen secara manual.
+<br>-> addDoc pada firestore akan membuatkan ID dokumen secara otomatis yang bersifat acak dan unik.
+<br>-> setDoc adalah kebalikan dari addDoc kegunaannya untuk menambahkan ID dokumen secara manual.
 3. Mengapa perlu validasi method POST?
--> Method POST dirancang untuk mengirim data sensitif dalam request body, bukan di URL, sehingga lebih aman dan terstruktur untuk operasi yang mengubah isi database.
+<br>-> Method POST dirancang untuk mengirim data sensitif dalam request body, bukan di URL, sehingga lebih aman dan terstruktur untuk operasi yang mengubah isi database.
 4. Apa risiko jika email tidak dicek unik?
--> Satu email bisa terdaftar berkali-kali dengan password yang berbeda-beda.
+<br>-> Satu email bisa terdaftar berkali-kali dengan password yang berbeda-beda.
 5. Apa fungsi role pada user?
--> untuk membatasi akses apa yang bisa dan tidak bisa dilakukan oleh user
+<br>-> untuk membatasi akses apa yang bisa dan tidak bisa dilakukan oleh user
