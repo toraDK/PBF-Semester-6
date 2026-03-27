@@ -40,4 +40,12 @@ Menambahkan foto profil dari akun google untuk ditampilkan di navbar<br>
 melakukan styling untuk imag di navbar<br>
 ![alt text](gambar_dokumentasi/17.png)<br>
 Hasil :<br>
-![alt text](gambar_dokumentasi/18.png)<br>
+![alt text](gambar_dokumentasi/18.png)<br><br>
+
+Langkah 8 – Simpan Data Google ke Database<br>
+menambhakan function sigInWithGoogle pada file firebase.ts<br>
+![alt text](gambar_dokumentasi/19.png)<br>
+menambahkan service jwt untuk login dengan google<br>
+![alt text](gambar_dokumentasi/20.png)<br>
+Hasil :
+![alt](gambar_dokumentasi/gif1.gif)
