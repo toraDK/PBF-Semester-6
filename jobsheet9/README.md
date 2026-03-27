@@ -1,71 +1,71 @@
-Bagian 1 – Setup Halaman SSR
-![alt text](gambar_dokumentasi/1.png)
-Hasil :
-![alt text](gambar_dokumentasi/2.png)
+Bagian 1 – Setup Halaman SSR<br>
+![alt text](gambar_dokumentasi/1.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/2.png)<br><br>
 
-Bagian 2 – Implementasi getServerSideProps pada server.tsx
-![alt text](gambar_dokumentasi/3.png)
-Hasil :
-![alt text](gambar_dokumentasi/4.png)
+Bagian 2 – Implementasi getServerSideProps pada server.tsx<br>
+![alt text](gambar_dokumentasi/3.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/4.png)<br><br>
 
-Bagian 3 – Refactor Type ( produk type )
-![alt text](gambar_dokumentasi/5.png)
-![alt text](gambar_dokumentasi/6.png)
-Hasil :
-![alt text](gambar_dokumentasi/7.png)
+Bagian 3 – Refactor Type ( produk type )<br>
+![alt text](gambar_dokumentasi/5.png)<br>
+![alt text](gambar_dokumentasi/6.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/7.png)<br><br>
 
-Bagian 4 – Uji Perbedaan SSR vs CSR
-Uji 1 – Skeleton
--> Hasil CSR
-![alt text](gambar_dokumentasi/8.png)
-muncul sekeleton terlebih dahulu sebelum muncul data
+Bagian 4 – Uji Perbedaan SSR vs CSR<br>
+Uji 1 – Skeleton<br>
+-> Hasil CSR<br>
+![alt text](gambar_dokumentasi/8.png)<br>
+muncul sekeleton terlebih dahulu sebelum muncul data<br>
 
--> Hasil SSR
-![alt text](gambar_dokumentasi/9.png)
-tidak muncul sekeleton sebelum muncul data
+-> Hasil SSR<br>
+![alt text](gambar_dokumentasi/9.png)<br>
+tidak muncul sekeleton sebelum muncul data<br>
 
-Uji 2 – Network Tab
--> Hasil CSR
-![alt text](gambar_dokumentasi/10.png)
+Uji 2 – Network Tab<br>
+-> Hasil CSR<br>
+![alt text](gambar_dokumentasi/10.png)<br>
 
--> Hasil SSR
-![alt text](gambar_dokumentasi/11.png)
+-> Hasil SSR<br>
+![alt text](gambar_dokumentasi/11.png)<br>
 
-Uji 3 – Response HTML
--> Hasil CSR
-![alt text](gambar_dokumentasi/8.png)
-muncul sekeleton terlebih dahulu sebelum muncul data
+Uji 3 – Response HTML<br>
+-> Hasil CSR<br>
+![alt text](gambar_dokumentasi/8.png)<br>
+muncul sekeleton terlebih dahulu sebelum muncul data<br>
 
--> Hasil SSR
-![alt text](gambar_dokumentasi/9.png)
-tidak muncul sekeleton sebelum muncul data
+-> Hasil SSR<br>
+![alt text](gambar_dokumentasi/9.png)<br>
+tidak muncul sekeleton sebelum muncul data<br><br>
 
-Tugas :
-1. Buat 2 halaman:
-    - /products (CSR)
-    ![alt text](gambar_dokumentasi/13.png)
-    - /products/server (SSR)
-    ![alt text](gambar_dokumentasi/12.png)
+Tugas :<br>
+1. Buat 2 halaman:<br>
+    - /products (CSR)<br>
+    ![alt text](gambar_dokumentasi/13.png)<br>
+    - /products/server (SSR)<br>
+    ![alt text](gambar_dokumentasi/12.png)<br>
 
-2. Dokumentasikan:
-    - Screenshot CSR
-    ![alt text](gambar_dokumentasi/14.png)
-    Hasil :
-    ![alt text](gambar_dokumentasi/13.png)
-    - Screenshot SSR
-    ![alt text](gambar_dokumentasi/15.png)
-    Hasil :
-    ![alt text](gambar_dokumentasi/12.png)
-    - Perbedaan Network tab
-    -> Hasil CSR
-    ![alt text](gambar_dokumentasi/10.png)
-    -> Hasil SSR
-    ![alt text](gambar_dokumentasi/11.png)
-    - Perbedaan View Source
-    -> Hasil CSR
-    ![alt text](gambar_dokumentasi/16.png)
-    -> Hasil SSR
-    ![alt text](gambar_dokumentasi/17.png)
+2. Dokumentasikan:<br>
+    - Screenshot CSR<br>
+    ![alt text](gambar_dokumentasi/14.png)<br>
+    Hasil :<br>
+    ![alt text](gambar_dokumentasi/13.png)<br>
+    - Screenshot SSR<br>
+    ![alt text](gambar_dokumentasi/15.png)<br>
+    Hasil :<br>
+    ![alt text](gambar_dokumentasi/12.png)<br>
+    - Perbedaan Network tab<br>
+    -> Hasil CSR<br>
+    ![alt text](gambar_dokumentasi/10.png)<br>
+    -> Hasil SSR<br>
+    ![alt text](gambar_dokumentasi/11.png)<br>
+    - Perbedaan View Source<br>
+    -> Hasil CSR<br>
+    ![alt text](gambar_dokumentasi/16.png)<br>
+    -> Hasil SSR<br>
+    ![alt text](gambar_dokumentasi/17.png)<br>
 
 E. Studi Analisis
 1. Mengapa SSR lebih baik untuk SEO?
