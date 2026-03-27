@@ -37,9 +37,11 @@ modifikasi file servicefirebase.ts<br>
 <br>
 view register
 <br>
-perubahan pada pesan error<br>
-![alt text](gambar_dokumentasi/10.png)
+
+perubahan pada pesan error
+![alt](gambar_dokumentasi/10.png)
 <br>
+
 Menampilkan pemberitahuan kepada user saat ada error<br>
 ![alt text](gambar_dokumentasi/11.png)<br>
 ![alt text](gambar_dokumentasi/12.png)
