@@ -62,26 +62,29 @@ Uji 2 – Email Sudah Ada<br>
 <br>
 Uji 3 – Method GET<br>
 ![alt text](gambar_dokumentasi/14.png)
+<br><br>
 
 Tugas
-1. menambahkan validasi untuk email dan password minimal 6 karakter
-Mengedit file servicefirebase.ts untuk menambahkan validasi email dan password
-![alt text](gambar_dokumentasi/15.png)
+<br>
 
-2. menampilkan pessan error di ui
-edit file api/register.ts untuk bisa mengirimkan hasil erro dari servicefirebase ke view register
-![alt text](gambar_dokumentasi/16.png)
-mengambil data dari response dan menampilkan messagenya
-![alt text](gambar_dokumentasi/17.png)
+1. menambahkan validasi untuk email dan password minimal 6 karakter<br>
+Mengedit file servicefirebase.ts untuk menambahkan validasi email dan password<br>
+![alt text](gambar_dokumentasi/15.png)<br>
 
-3. menambahkan role default "member"
-![alt text](gambar_dokumentasi/18.png)
+2. menampilkan pessan error di ui<br>
+edit file api/register.ts untuk bisa mengirimkan hasil erro dari servicefirebase ke view register<br>
+![alt text](gambar_dokumentasi/16.png)<br>
+mengambil data dari response dan menampilkan messagenya<br>
+![alt text](gambar_dokumentasi/17.png)<br>
 
-Hasil error :
-![alt](gambar_dokumentasi/register4.gif)
+3. menambahkan role default "member"<br>
+![alt text](gambar_dokumentasi/18.png)<br>
 
-Hasil berhasil :
-![alt](gambar_dokumentasi/register5.gif)
+Hasil error :<br>
+![alt](gambar_dokumentasi/register4.gif)<br>
+
+Hasil berhasil :<br>
+![alt](gambar_dokumentasi/register5.gif)<br>
 
 H. Pertanyaan Analisis
 1. Mengapa password harus di-hash?
