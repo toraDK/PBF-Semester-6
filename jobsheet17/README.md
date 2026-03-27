@@ -18,3 +18,6 @@ Mengisi form sesuai pada jobsheet<br>
 ![alt text](gambar_dokumentasi/7.png)<br>
 ![alt text](gambar_dokumentasi/8.png)<br>
 ![alt text](gambar_dokumentasi/9.png)<br><br>
+
+Langkah 4 – Buat OAuth Credentials<br>
+![alt text](gambar_dokumentasi/10.png)<br><br>
