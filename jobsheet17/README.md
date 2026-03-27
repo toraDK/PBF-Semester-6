@@ -25,3 +25,6 @@ Langkah 4 – Buat OAuth Credentials<br>
 Langkah 5 – Tambahkan Environment Variables<br>
 mengcopy client ID dan client secret dari google ke .env<br>
 ![alt text](gambar_dokumentasi/11.png)<br><br>
+
+Langkah 6 – Konfigurasi Google Provider di NextAuth dan Handle Callback JWT & Session<br>
+![alt text](image.png)<br><br>
