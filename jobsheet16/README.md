@@ -1,55 +1,74 @@
 BAGIAN 1 – Custom Login Page
+<br>
 Edit kode [...nextauth].ts
 ![alt text](gambar_dokumentasi/1.png)
+<br>
 Hasil :
 ![alt](gambar_dokumentasi/gif1.gif)
-
+<br><br>
 BAGIAN 2 – Handle Login di Frontend
+<br>
 copy paste views login dari register
 ![alt text](gambar_dokumentasi/2.png)
+<br>
 edit view login
 ![alt text](gambar_dokumentasi/3.png)
+<br>
 edit style untuk views login
 ![alt text](gambar_dokumentasi/4.png)
+<br>
 edit pages/auth/login/index.tsx
 ![alt text](gambar_dokumentasi/5.png)
+<br>
 menambahkan kode di servicefirebase.ts untuk login
 ![alt text](gambar_dokumentasi/6.png)
+<br>
 Hasil :
 ![alt text](gambar_dokumentasi/7.png)
-
+<br><br>
 BAGIAN 3 – Authorize di NextAuth (Database Login)
+<br>
 mengedit bagian providers pada [...nextauth].ts
 ![alt text](gambar_dokumentasi/8.png)
-
+<br><br>
 BAGIAN 4 – Tambahkan Role ke Token
+<br>
 modifikasi jwt callback pada [...nextauth].ts
 ![alt text](gambar_dokumentasi/9.png)
+<br>
 Hasil :
 ![alt](gambar_dokumentasi/gif2.gif)
-
+<br><br>
 BAGIAN 5 – Callback URL Logic
+<br>
 Edit middleware agar saat user login dapat kembali ke halaman sebelumnya
 ![alt text](gambar_dokumentasi/9.png)
-
+<br><br>
 BAGIAN 6 – Membuat halaman Admin dan authoriz
+<br>
 Membuat halaman admin
 ![alt text](gambar_dokumentasi/10.png)
+<br>
 Modifikasi withAuth.ts untuk pengecekan role admin
 ![alt text](gambar_dokumentasi/11.png)
+<br>
 Hasil jika login role member
 ![alt](gambar_dokumentasi/gif3.gif)
+<br>
 Hasil jika login role admin
 ![alt](gambar_dokumentasi/gif4.gif)
-
-
+<br><br>
 Pengujian
+<br>
 Uji 1 – Login Valid
 ![alt](gambar_dokumentasi/gif5.gif)
+<br>
 Uji 2 – Password Salah
 ![alt text](gambar_dokumentasi/12.png)
+<br>
 Uji 3 – Akses Admin sebagai User
 ![alt](gambar_dokumentasi/gif3.gif)
+<br>
 Uji 4 – Akses Admin sebagai Admin
 ![alt](gambar_dokumentasi/gif4.gif)
 
