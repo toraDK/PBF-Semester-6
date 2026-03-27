@@ -1,88 +1,88 @@
-Bagian 1 – Membuat Dynamic Route
-Edit di kode pages/prodduk/index.tsx
-![alt text](gambar_dokumentasi/1.png)
-Kode pages/produk/[product].tsx
-![alt text](gambar_dokumentasi/2.png)
+Bagian 1 – Membuat Dynamic Route<br>
+Edit di kode pages/prodduk/index.tsx<br>
+![alt text](gambar_dokumentasi/1.png)<br>
+Kode pages/produk/[product].tsx<br>
+![alt text](gambar_dokumentasi/2.png)<br><br>
 
-Hasil :
-Halaman /produk
-![alt text](gambar_dokumentasi/3.png)
-Saat gambar di klik
-![alt text](gambar_dokumentasi/4.png)
+Hasil :<br>
+Halaman /produk<br>
+![alt text](gambar_dokumentasi/3.png)<br>
+Saat gambar di klik<br>
+![alt text](gambar_dokumentasi/4.png)<br><br>
 
 
-Bagian 2 – Implementasi CSR (Client Rendering)
-Modifikasi file [produk].tsx
-![alt text](gambar_dokumentasi/5.png)
-Rename nama file produk.ts menjadi [[...produk]].ts
-![alt text](gambar_dokumentasi/6.png)
-Modifikasi file servicefirebase.ts
-![alt text](gambar_dokumentasi/7.png)
-Modifikasi file [[...produk]].ts
-![alt text](gambar_dokumentasi/8.png)
-alamat url http://localhost:3000/api/produk/DJ80rtBbWGmY4msr6Q3Q
-![alt text](gambar_dokumentasi/9.png)
-alamat url http://localhost:3000/api/produk/123
-![alt text](gambar_dokumentasi/10.png)
-Modifikasi file detailProduct.module.scss
-![alt text](gambar_dokumentasi/11.png)
-Modfikasi views/DetailProduct/index.tsx
-![alt text](gambar_dokumentasi/12.png)
-Modifikasi views/pages/produk/[product].tsx
-![alt text](gambar_dokumentasi/13.png)
-Modfikasi views/DetailProduct/index.tsx
-![alt text](gambar_dokumentasi/14.png)
-modifikasi file detailProduct.module.scss agar title ditengah
-![alt text](gambar_dokumentasi/15.png)
-Hasil :
-![alt text](gambar_dokumentasi/16.png)
+Bagian 2 – Implementasi CSR (Client Rendering)<br>
+Modifikasi file [produk].tsx<br>
+![alt text](gambar_dokumentasi/5.png)<br>
+Rename nama file produk.ts menjadi [[...produk]].ts<br>
+![alt text](gambar_dokumentasi/6.png)<br>
+Modifikasi file servicefirebase.ts<br>
+![alt text](gambar_dokumentasi/7.png)<br>
+Modifikasi file [[...produk]].ts<br>
+![alt text](gambar_dokumentasi/8.png)<br>
+alamat url http://localhost:3000/api/produk/DJ80rtBbWGmY4msr6Q3Q<br>
+![alt text](gambar_dokumentasi/9.png)<br>
+alamat url http://localhost:3000/api/produk/123<br>
+![alt text](gambar_dokumentasi/10.png)<br>
+Modifikasi file detailProduct.module.scss<br>
+![alt text](gambar_dokumentasi/11.png)<br>
+Modfikasi views/DetailProduct/index.tsx<br>
+![alt text](gambar_dokumentasi/12.png)<br>
+Modifikasi views/pages/produk/[product].tsx<br>
+![alt text](gambar_dokumentasi/13.png)<br>
+Modfikasi views/DetailProduct/index.tsx<br>
+![alt text](gambar_dokumentasi/14.png)<br>
+modifikasi file detailProduct.module.scss agar title ditengah<br>
+![alt text](gambar_dokumentasi/15.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/16.png)<br><br>
 
-Bagian 3 – Implementasi SSR
-Edit kode [product].tsx
-![alt text](gambar_dokumentasi/17.png)
-Hasil :
-![alt text](gambar_dokumentasi/18.png)
-![alt text](gambar_dokumentasi/19.png)
+Bagian 3 – Implementasi SSR<br>
+Edit kode [product].tsx<br>
+![alt text](gambar_dokumentasi/17.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/18.png)<br>
+![alt text](gambar_dokumentasi/19.png)<br><br>
 
-Bagian 4 – Implementasi Static Site Generation (Dynamic SSG)
-Edit kode [product].tsx
-![alt text](gambar_dokumentasi/20.png)
-Edit kode DetailProdduct/index.tsx
-![alt text](gambar_dokumentasi/21.png)
-Hasil :
-![alt text](gambar_dokumentasi/22.png)
-![alt text](gambar_dokumentasi/23.png)
+Bagian 4 – Implementasi Static Site Generation (Dynamic SSG)<br>
+Edit kode [product].tsx<br>
+![alt text](gambar_dokumentasi/20.png)<br>
+Edit kode DetailProdduct/index.tsx<br>
+![alt text](gambar_dokumentasi/21.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/22.png)<br>
+![alt text](gambar_dokumentasi/23.png)<br><br>
 
-Pengujian
-Uji 1 – CSR
-Kode pada [product].tsx untuk CSR
-![alt text](gambar_dokumentasi/24.png)
-Hasil :
-![alt text](gambar_dokumentasi/HasilCSR.gif)
+Pengujian<br>
+Uji 1 – CSR<br>
+Kode pada [product].tsx untuk CSR<br>
+![alt text](gambar_dokumentasi/24.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/HasilCSR.gif)<br><br>
 
-Uji 2 – SSR
-Kode pada [product].tsx untuk SSR
-![alt text](gambar_dokumentasi/25.png)
-Hasil :
-![alt text](gambar_dokumentasi/HasilSSR.gif)
+Uji 2 – SSR<br>
+Kode pada [product].tsx untuk SSR<br>
+![alt text](gambar_dokumentasi/25.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/HasilSSR.gif)<br><br>
 
-Uji 3 – SSG
-Kode SSG pada [product].tsx
-![alt text](gambar_dokumentasi/26.png)
-Hasil Build
-![alt text](gambar_dokumentasi/27.png)
-Tampilan Web
-![alt text](gambar_dokumentasi/28.png)
-Data sebelum ditambah pada firestore
-![alt text](gambar_dokumentasi/29.png)
-Data Baru
-![alt text](gambar_dokumentasi/30.png)
-Hasil data baru tidak akan muncul
-![alt text](gambar_dokumentasi/HasilSSG.gif)
-Build Ulang
-![alt text](gambar_dokumentasi/31.png)
-Hasil Build ulang
-![alt text](gambar_dokumentasi/32.png)
+Uji 3 – SSG<br>
+Kode SSG pada [product].tsx<br>
+![alt text](gambar_dokumentasi/26.png)<br>
+Hasil Build<br>
+![alt text](gambar_dokumentasi/27.png)<br>
+Tampilan Web<br>
+![alt text](gambar_dokumentasi/28.png)<br>
+Data sebelum ditambah pada firestore<br>
+![alt text](gambar_dokumentasi/29.png)<br>
+Data Baru<br>
+![alt text](gambar_dokumentasi/30.png)<br>
+Hasil data baru tidak akan muncul<br>
+![alt text](gambar_dokumentasi/HasilSSG.gif)<br>
+Build Ulang<br>
+![alt text](gambar_dokumentasi/31.png)<br>
+Hasil Build ulang<br>
+![alt text](gambar_dokumentasi/32.png)<br><br>
 
 Tabel Perbandingan
 | Aspek | CSR | SSR | SSG |
