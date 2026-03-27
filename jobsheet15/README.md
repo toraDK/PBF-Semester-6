@@ -44,10 +44,9 @@ perubahan pada pesan error
 
 Menampilkan pemberitahuan kepada user saat ada error<br>
 ![alt text](gambar_dokumentasi/11.png)<br>
-![alt text](gambar_dokumentasi/12.png)
-<br>
+![alt text](gambar_dokumentasi/12.png)<br>
 styling error di file scss<br>
-![alt text](gambar_dokumentasi/13.png)
+![alt text](gambar_dokumentasi/13.png)<br>
 Hasil register:<br>
 ![alt](gambar_dokumentasi/register2.gif)
 Hasil saat melakukan registrasi dengan email yang sama :<br>
