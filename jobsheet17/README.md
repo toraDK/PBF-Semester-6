@@ -29,3 +29,15 @@ mengcopy client ID dan client secret dari google ke .env<br>
 Langkah 6 – Konfigurasi Google Provider di NextAuth dan Handle Callback JWT & Session<br>
 ![alt text](gambar_dokumentasi/12.png)<br>
 ![alt text](gambar_dokumentasi/13.png)<br><br>
+
+Langkah 7 – Tambahkan Button Login Google<br>
+Menambahkan tombol sigIn with google pada halaman login<br>
+![alt text](gambar_dokumentasi/14.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/15.png)<br>
+Menambahkan foto profil dari akun google untuk ditampilkan di navbar<br>
+![alt text](gambar_dokumentasi/16.png)<br>
+melakukan styling untuk imag di navbar<br>
+![alt text](gambar_dokumentasi/17.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/18.png)<br>
