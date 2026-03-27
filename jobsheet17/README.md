@@ -27,4 +27,5 @@ mengcopy client ID dan client secret dari google ke .env<br>
 ![alt text](gambar_dokumentasi/11.png)<br><br>
 
 Langkah 6 – Konfigurasi Google Provider di NextAuth dan Handle Callback JWT & Session<br>
-![alt text](image.png)<br><br>
+![alt text](gambar_dokumentasi/12.png)<br>
+![alt text](gambar_dokumentasi/13.png)<br><br>

@@ -77,8 +77,14 @@ export const authOptions: NextAuthOptions = {
       if (token.fullname) {
         session.user.fullname = token.fullname;
       }
+      if (token.image) {
+        session.user.image = token.image;
+      }
       if (token.role) {
         session.user.role = token.role;
+      }
+      if (token.type) {
+        session.user.type = token.type;
       }
       // console.log("session callback", { session, token })
       return session;
