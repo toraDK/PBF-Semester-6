@@ -1,75 +1,75 @@
 BAGIAN 1 – Custom Login Page
 <br>
-Edit kode [...nextauth].ts
+Edit kode [...nextauth].ts<br>
 ![alt text](gambar_dokumentasi/1.png)
 <br>
-Hasil :
+Hasil :<br>
 ![alt](gambar_dokumentasi/gif1.gif)
 <br><br>
 BAGIAN 2 – Handle Login di Frontend
 <br>
-copy paste views login dari register
+copy paste views login dari register<br>
 ![alt text](gambar_dokumentasi/2.png)
 <br>
-edit view login
+edit view login<br>
 ![alt text](gambar_dokumentasi/3.png)
 <br>
-edit style untuk views login
+edit style untuk views login<br>
 ![alt text](gambar_dokumentasi/4.png)
 <br>
-edit pages/auth/login/index.tsx
+edit pages/auth/login/index.tsx<br>
 ![alt text](gambar_dokumentasi/5.png)
 <br>
-menambahkan kode di servicefirebase.ts untuk login
+menambahkan kode di servicefirebase.ts untuk login<br>
 ![alt text](gambar_dokumentasi/6.png)
 <br>
-Hasil :
+Hasil :<br>
 ![alt text](gambar_dokumentasi/7.png)
 <br><br>
 BAGIAN 3 – Authorize di NextAuth (Database Login)
 <br>
-mengedit bagian providers pada [...nextauth].ts
+mengedit bagian providers pada [...nextauth].ts<br>
 ![alt text](gambar_dokumentasi/8.png)
 <br><br>
 BAGIAN 4 – Tambahkan Role ke Token
 <br>
-modifikasi jwt callback pada [...nextauth].ts
+modifikasi jwt callback pada [...nextauth].ts<br>
 ![alt text](gambar_dokumentasi/9.png)
 <br>
-Hasil :
+Hasil :<br>
 ![alt](gambar_dokumentasi/gif2.gif)
 <br><br>
 BAGIAN 5 – Callback URL Logic
 <br>
-Edit middleware agar saat user login dapat kembali ke halaman sebelumnya
+Edit middleware agar saat user login dapat kembali ke halaman sebelumnya<br>
 ![alt text](gambar_dokumentasi/9.png)
 <br><br>
 BAGIAN 6 – Membuat halaman Admin dan authoriz
 <br>
-Membuat halaman admin
+Membuat halaman admin<br>
 ![alt text](gambar_dokumentasi/10.png)
 <br>
-Modifikasi withAuth.ts untuk pengecekan role admin
+Modifikasi withAuth.ts untuk pengecekan role admin<br>
 ![alt text](gambar_dokumentasi/11.png)
 <br>
-Hasil jika login role member
+Hasil jika login role member<br>
 ![alt](gambar_dokumentasi/gif3.gif)
 <br>
-Hasil jika login role admin
+Hasil jika login role admin<br>
 ![alt](gambar_dokumentasi/gif4.gif)
 <br><br>
 Pengujian
 <br>
-Uji 1 – Login Valid
+Uji 1 – Login Valid<br>
 ![alt](gambar_dokumentasi/gif5.gif)
 <br>
-Uji 2 – Password Salah
+Uji 2 – Password Salah<br>
 ![alt text](gambar_dokumentasi/12.png)
 <br>
-Uji 3 – Akses Admin sebagai User
+Uji 3 – Akses Admin sebagai User<br>
 ![alt](gambar_dokumentasi/gif3.gif)
 <br>
-Uji 4 – Akses Admin sebagai Admin
+Uji 4 – Akses Admin sebagai Admin<br>
 ![alt](gambar_dokumentasi/gif4.gif)
 
 Pertanyaan Analisis
