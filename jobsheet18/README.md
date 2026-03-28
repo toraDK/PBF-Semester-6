@@ -30,3 +30,11 @@ Hasil :<br>
 #### Menggunakan next/script
 modifikasi file index.tsx pada folder layouts/Navbar<br>
 ![alt text](gambar_dokumentasi/10.png)<br><br>
+
+### PRAKTIKUM 4 – Optimasi Avatar dengan next/image
+modifikasi file index.tsx pada folder layouts/navbar<br>
+![alt text](gambar_dokumentasi/11.png)<br>
+menambaahkan konfigurasi untuk url google di next.config.ts agar data gambar bisa dipakai di aplikasi<br>
+![alt text](gambar_dokumentasi/12.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/13.png)
