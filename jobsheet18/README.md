@@ -25,3 +25,8 @@ modifikasi file index.tsx pada folder Appshell/index.tsx<br>
 ![alt text](gambar_dokumentasi/8.png)<br>
 Hasil :<br>
 ![alt text](gambar_dokumentasi/9.png)<br><br>
+
+### PRAKTIKUM 3 – Script Optimization
+#### Menggunakan next/script
+modifikasi file index.tsx pada folder layouts/Navbar<br>
+![alt text](gambar_dokumentasi/10.png)<br><br>
