@@ -47,5 +47,21 @@ menambhakan function sigInWithGoogle pada file firebase.ts<br>
 ![alt text](gambar_dokumentasi/19.png)<br>
 menambahkan service jwt untuk login dengan google<br>
 ![alt text](gambar_dokumentasi/20.png)<br>
-Hasil :
-![alt](gambar_dokumentasi/gif1.gif)
+Hasil :<br>
+![alt](gambar_dokumentasi/gif1.gif)<br><br>
+
+Analisis & Diskusi
+1. Apa perbedaan login credential dan login Google?
+<br>-> Login Credential: User mendaftar secara manual menggunakan email dan password sendiri.nantinya yang mengelola password dan email adalah aplikasi itu sendiri
+<br>-> Login Google : User tidak perlu mendaftar secara manual menggunakan email dan password user tinggal masuk menggunakan akun Google yang dipunya. Nantinya email dan password yang sudah di hash dari google tinggal di simpan di database 
+2. Mengapa data Google tetap perlu disimpan ke database?
+<br>-> bisa digunakan untuk mencatat siapa saja yang sudah login di aplikasi, Bisa juga digunakan untuk mengatur role user karena google tidak tahu role apa saja yang ada di aplikasi
+3. Apa fungsi JWT callback?
+<br>-> Memperbarui waktu kedaluwarsa token setiap kali sesi aktif
+<br>-> Memperbarui waktu kedaluwarsa token setiap kali sesi aktif
+4. Mengapa perlu multi-role?
+<br>-> agar hanya admin yang bisa menghapus, mengedit, atau menambah data yang sifatnya sensitif.
+<br>-> Melindungi data sensitif agar tidak bisa diakses oleh role user yang tidak berwenang.
+5. Apa risiko jika tidak menyimpan user ke database?
+<br>-> tidak ada data user
+<br>-> jika tidak ada data user maka nanti tidak ada multi role. semua role user akan sama default
