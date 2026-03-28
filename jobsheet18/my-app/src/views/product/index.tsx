@@ -1,4 +1,5 @@
 import styles from "@/pages/produk/product.module.scss";
+import Image from "next/image";
 import Link from "next/link";
 
 type ProductType = {
@@ -33,7 +34,7 @@ const TampilanProduk = ({ products, isLoading, }: { products: ProductType[]; isL
                     <div key={product.id} className={`${styles.produk__content__item} ${styles.fadeIn}`}>
                         <Link href={`/produk/${product.id}`} key={product.id} className={styles.produk__content__item}>
                             <div className={styles.produk__content__item__image}>
-                            <img src={product.image} alt={product.name} width={200} height={200} />
+                            <Image src={product.image} alt={product.name} width={200} height={200} />
                             </div>
 
                             <h4 className={styles.produk__content__item__name}>

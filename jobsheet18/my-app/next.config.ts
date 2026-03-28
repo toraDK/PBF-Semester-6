@@ -1,9 +1,36 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "assets.adidas.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "contents.mediadecathlon.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "down-id.img.susercontent.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "cardinal.co.id",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.puma.com",
+        pathname: "/**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
