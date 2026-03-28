@@ -17,4 +17,11 @@ Hasil :<br>
 tanpa tag Image<br>
 ![alt text](gambar_dokumentasi/6.png)<br>
 Saat memakai tag Image<br>
-![alt text](gambar_dokumentasi/7.png)<br>
+![alt text](gambar_dokumentasi/7.png)<br><br>
+
+### PRAKTIKUM 2 – Font Optimization
+#### Menggunakan next/font
+modifikasi file index.tsx pada folder Appshell/index.tsx<br>
+![alt text](gambar_dokumentasi/8.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/9.png)<br><br>
