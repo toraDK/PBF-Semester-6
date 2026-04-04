@@ -1,4 +1,5 @@
 import styles from './navbar.module.css';
+import Image from 'next/image';
 import { signIn, signOut, useSession } from "next-auth/react"
 
 const Navbar = () => {
@@ -18,7 +19,7 @@ const Navbar = () => {
             <div className={styles.navbar__user}>
               Welcome, {data.user?.fullname}
               {data.user.image && (
-                <img
+                <Image
                   src={data.user.image}
                   alt={data.user.fullname}
                   className={styles.navbar__user__image}

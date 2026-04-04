@@ -82,6 +82,8 @@ Hasil :<br>
 ![alt text](gambar_dokumentasi/37.png)<br>
 Hasil :<br>
 ![alt text](gambar_dokumentasi/38.png)<br>
+5. Gunakan next/image untuk optimasi avatar<br>
+![alt text](gambar_dokumentasi/39.png)<br>
 
 Analisis & Diskusi
 1. Apa perbedaan login credential dan login Google?
