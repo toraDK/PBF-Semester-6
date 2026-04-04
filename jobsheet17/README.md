@@ -77,6 +77,11 @@ Hasil :<br>
 ![alt text](gambar_dokumentasi/33.png)<br>
 ![alt text](gambar_dokumentasi/34.png)<br>
 ![alt text](gambar_dokumentasi/35.png)<br>
+4.Refactor service agar reusable<br>
+![alt text](gambar_dokumentasi/36.png)<br>
+![alt text](gambar_dokumentasi/37.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/38.png)<br>
 
 Analisis & Diskusi
 1. Apa perbedaan login credential dan login Google?
