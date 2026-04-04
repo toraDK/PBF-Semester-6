@@ -9,6 +9,12 @@ const TampilanLogin = () => {
   const { push } = useRouter();
   const [error, setError] = useState("");
 
+  const handleOAuthSignIn = async (provider: "google" | "github") => {
+    setIsLoading(true);
+    setError("");
+    await signIn(provider, { callbackUrl: "/" });
+  };
+
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setIsLoading(true);
@@ -88,11 +94,21 @@ const TampilanLogin = () => {
             </button>
             <br /> <br />
             <button
-              onClick={() => signIn("google", { callbackUrl: "/", redirect: false })}
-              className={style.login__form_item__button}
+              type="button"
+              onClick={() => handleOAuthSignIn("google")}
+              className={style.login__form__item__button}
               disabled={isLoading}
             >
-              {isLoading ? "Loading..." : "sign in with google"}
+              {isLoading ? "Loading..." : "Sign in with Google"}
+            </button>
+            <br /> <br />
+            <button
+              type="button"
+              onClick={() => handleOAuthSignIn("github")}
+              className={style.login__form__item__button}
+              disabled={isLoading}
+            >
+              {isLoading ? "Loading..." : "Sign in with GitHub"}
             </button>
           </form>
           <br />

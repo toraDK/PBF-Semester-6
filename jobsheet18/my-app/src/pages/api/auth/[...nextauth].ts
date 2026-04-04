@@ -3,6 +3,7 @@ import { signIn, signInWithGoogle } from "@/utils/db/servicefirebase";
 import NextAuth, { NextAuthOptions } from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import GoogleProvider from "next-auth/providers/google";
+import GitHubProvider from "next-auth/providers/github";
 
 export const authOptions: NextAuthOptions = {
   session: {
@@ -44,17 +45,21 @@ export const authOptions: NextAuthOptions = {
     clientId: process.env.GOOGLE_CLIENT_ID || "",
     clientSecret: process.env.GOOGLE_CLIENT_SECRET || "",
   }),
+  GitHubProvider({
+    clientId: process.env.GITHUB_CLIENT_ID || "",
+    clientSecret: process.env.GITHUB_CLIENT_SECRET || "",
+  }),
 ],
 
   callbacks: {
-    async jwt({ token, account, profile, user }: any) {
+    async jwt({ token, account, user }: any) {
       if (account?.provider === "credentials" && user) {
         token.email = user.email;
         token.fullname = user.fullname;
         token.role = user.role;
       }
-      // Jika login dengan Google, tambahkan informasi yang diperlukan ke token
-      if (account?.provider === "google") {
+      // Jika login dengan OAuth, simpan data user ke Firestore lalu masukkan ke token
+      if (account?.provider === "google" || account?.provider === "github") {
         const data = {
           fullname: user.name,
           email: user.email,

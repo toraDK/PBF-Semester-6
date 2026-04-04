@@ -59,8 +59,24 @@ pages editor<br>
 menambahkan pengecekan autentukasi untuk halaman editor<br>
 ![alt text](gambar_dokumentasi/23.png)<br>
 ![alt text](gambar_dokumentasi/24.png)<br>
-Hasil :
-![alt text](gambar_dokumentasi/25.png)
+Hasil :<br>
+![alt text](gambar_dokumentasi/25.png)<br>
+3. Menambahkan provider github untuk login<br>
+Membuat Oauth baru<br>
+![alt text](gambar_dokumentasi/26.png)<br>
+![alt text](gambar_dokumentasi/27.png)<br>
+setelah membuat Oauth  baru akan muncul id dan secret yang nanti akan dicoy ke file .env<br>
+![alt text](gambar_dokumentasi/28.png)<br>
+![alt text](gambar_dokumentasi/29.png)<br>
+mengedit kode pada file ...nextauth.ts untuk provider github<br>
+![alt text](gambar_dokumentasi/30.png)<br>
+Menambahkan button login dengan github di halaman login<br>
+![alt text](gambar_dokumentasi/31.png)<br>
+![alt text](gambar_dokumentasi/32.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/33.png)<br>
+![alt text](gambar_dokumentasi/34.png)<br>
+![alt text](gambar_dokumentasi/35.png)<br>
 
 Analisis & Diskusi
 1. Apa perbedaan login credential dan login Google?
