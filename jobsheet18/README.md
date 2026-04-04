@@ -53,3 +53,20 @@ menggunakan font roboto<br>
 ![alt text](gambar_dokumentasi/18.png)<br>
 5. Dokumentasikan perubahan performa (screenshot Lighthouse)<br>
 ![alt text](gambar_dokumentasi/19.png)<br>
+
+Refleksi & Diskusi<br>
+1. Mengapa <img> biasa tidak optimal?<br>
+-> tag <img> tidak bisa otomatis mengubah gambar menjadi format modern seperti WebP atau AVIF yang jauh lebih ringan dibanding PNG/JPG.<br>
+-> Jika mengunggah gambar 5MB, browser akan mengunduh seluruh 5MB tersebut meskipun ditampilkan dalam ukuran kecil<br>
+2. Apa perbedaan font CDN dan next/font?<br>
+-> Font CDN: Browser harus melakukan permintaan HTTP tambahan ke server luar saat halaman dimuat.<br>
+-> next/font: Next.js mengunduh file font tersebut saat proses build dan menyimpannya secara lokal di server<br>
+3. Mengapa script bisa membuat website lambat?<br>
+-> Render-Blocking: Secara default, browser akan berhenti merender HTML saat menemukan tag <script> untuk mengunduh dan mengeksekusi kode JavaScript tersebut.<br>
+4. Kapan harus menggunakan dynamic import?<br>
+-> Komponen memiliki library besar<br>
+-> Komponen yang tidak langsung muncul saat halaman dimuat, seperti Modal, Sidebar, atau Dropdown.<br>
+-> Mengurangi ukuran file JavaScript utama agar halaman awal muncul secepat kilat.<br>
+5. Apa dampak bundle size terhadap UX?<br>
+-> Waktu Tunggu (Loading Time): Semakin besar bundle, semakin lama user menatap layar putih atau loading spinner.<br>
+-> Bundle besar membuat browser sibuk memproses kode, sehingga user merasa website lemot atau tidak bisa diklik meskipun gambarnya sudah muncul.<br>
