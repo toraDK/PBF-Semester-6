@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { signIn, signInWithGoogle } from "@/utils/db/servicefirebase";
+import { signIn, signInWithOAuth } from "@/utils/db/servicefirebase";
 import NextAuth, { NextAuthOptions } from "next-auth"
 import CredentialsProvider from "next-auth/providers/credentials"
 import GoogleProvider from "next-auth/providers/google";
@@ -67,8 +67,7 @@ export const authOptions: NextAuthOptions = {
           type: account.provider,
         };
         // console.log("Google login data", { data });
-        await signInWithGoogle(data, (result: any) => {
-          // Pastikan mengecek result.status sesuai dengan object yang dikirim
+        await signInWithOAuth(data, (result: any) => {
           if (result.status) {
             token.fullname = result.data.fullname;
             token.email = result.data.email;
@@ -76,9 +75,8 @@ export const authOptions: NextAuthOptions = {
             token.type = result.data.type;
             token.role = result.data.role;
           }
-        });
+        }, account.provider);
       }
-      // console.log("jwt callback", { token, account, profile, user })
       return token;
     },
     async session({ session, token }: any) {
