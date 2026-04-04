@@ -44,3 +44,6 @@ Tugas<br>
 ![alt text](gambar_dokumentasi/14.png)<br>
 Hasil :<br>
 ![alt text](gambar_dokumentasi/15.png)<br>
+2. Gunakan minimal 1 font dari next/font<br>
+![alt text](image.png)<br>
+menggunakan font roboto<br>
