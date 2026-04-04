@@ -50,6 +50,18 @@ menambahkan service jwt untuk login dengan google<br>
 Hasil :<br>
 ![alt](gambar_dokumentasi/gif1.gif)<br><br>
 
+#### Tugas Mandiri
+1. Tambahkan role editor<br>
+![alt text](gambar_dokumentasi/21.png)<br>
+2. Buat halaman khusus editor<br>
+pages editor<br>
+![alt text](gambar_dokumentasi/22.png)<br>
+menambahkan pengecekan autentukasi untuk halaman editor<br>
+![alt text](gambar_dokumentasi/23.png)<br>
+![alt text](gambar_dokumentasi/24.png)<br>
+Hasil :
+![alt text](gambar_dokumentasi/25.png)
+
 Analisis & Diskusi
 1. Apa perbedaan login credential dan login Google?
 <br>-> Login Credential: User mendaftar secara manual menggunakan email dan password sendiri.nantinya yang mengelola password dan email adalah aplikasi itu sendiri
