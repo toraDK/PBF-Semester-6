@@ -37,4 +37,10 @@ modifikasi file index.tsx pada folder layouts/navbar<br>
 menambaahkan konfigurasi untuk url google di next.config.ts agar data gambar bisa dipakai di aplikasi<br>
 ![alt text](gambar_dokumentasi/12.png)<br>
 Hasil :<br>
-![alt text](gambar_dokumentasi/13.png)
+![alt text](gambar_dokumentasi/13.png)<br>
+
+Tugas<br>
+1. Optimasi semua image di project menggunakan next/image<br>
+![alt text](gambar_dokumentasi/14.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/15.png)<br>

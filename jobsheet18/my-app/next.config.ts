@@ -34,6 +34,11 @@ const nextConfig: NextConfig = {
         hostname: "images.puma.com",
         pathname: "/**",
       },
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        pathname: '/**',
+      }
     ],
   },
 };
