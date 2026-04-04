@@ -45,5 +45,7 @@ Tugas<br>
 Hasil :<br>
 ![alt text](gambar_dokumentasi/15.png)<br>
 2. Gunakan minimal 1 font dari next/font<br>
-![alt text](image.png)<br>
+![alt text](gambar_dokumentasi/16.png)<br>
 menggunakan font roboto<br>
+3. Tambahkan script Google Analytics menggunakan next/script<br>
+![alt text](gambar_dokumentasi/17.png)<br>
