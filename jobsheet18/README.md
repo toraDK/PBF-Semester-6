@@ -49,3 +49,5 @@ Hasil :<br>
 menggunakan font roboto<br>
 3. Tambahkan script Google Analytics menggunakan next/script<br>
 ![alt text](gambar_dokumentasi/17.png)<br>
+4. Terapkan dynamic import pada minimal 1 komponen
+![alt text](gambar_dokumentasi/18.png)

@@ -1,8 +1,10 @@
 import { useRouter } from "next/router";
 import Script from "next/script";
-import Navbar from "../navbar";
-import Footer from "../footer";
+import dynamic from "next/dynamic";
 import { Roboto } from "next/font/google";
+
+const Navbar = dynamic(() => import("../navbar"));
+const Footer = dynamic(() => import("../footer"));
 
 const roboto = Roboto({
     weight: "400",
