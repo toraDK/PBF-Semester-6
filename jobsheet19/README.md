@@ -66,3 +66,5 @@ Hasil :<br>
 ![alt text](gambar_dokumentasi/26.png)<br>
 perbaikan code pada file index.tsx di view/product<br>
 ![alt text](gambar_dokumentasi/27.png)<br>
+Hasil run :
+![alt text](gambar_dokumentasi/28.png)
