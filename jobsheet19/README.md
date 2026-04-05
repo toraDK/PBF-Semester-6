@@ -11,7 +11,15 @@ membuat foler testing<br>
 ![alt text](gambar_dokumentasi/4.png)<br>
 
 ### PRAKTIKUM 3 – Testing Halaman About
-menambahkan kode di about.spec.tsx
-![alt text](gambar_dokumentasi/5.png)
-Hasil menjalankan testing
-![alt text](gambar_dokumentasi/6.png)
+menambahkan kode di about.spec.tsx<br>
+![alt text](gambar_dokumentasi/5.png)<br>
+Hasil menjalankan testing<br>
+![alt text](gambar_dokumentasi/6.png)<br>
+
+### PRAKTIKUM 4 – Coverage Report
+Mnejalankan npm run test:coverage<br>
+![alt text](gambar_dokumentasi/7.png)<br>
+Muncul folder baru<br>
+![alt text](gambar_dokumentasi/8.png)<br>
+Hasil tampilan coverage<br>
+![alt text](gambar_dokumentasi/9.png)<br>
