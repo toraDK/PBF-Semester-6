@@ -9,3 +9,9 @@ Menambahkan Script di package.json<br>
 ### PRAKTIKUM 2 – Struktur Folder Testing
 membuat foler testing<br>
 ![alt text](gambar_dokumentasi/4.png)<br>
+
+### PRAKTIKUM 3 – Testing Halaman About
+menambahkan kode di about.spec.tsx
+![alt text](gambar_dokumentasi/5.png)
+Hasil menjalankan testing
+![alt text](gambar_dokumentasi/6.png)
