@@ -44,3 +44,15 @@ Jika dibuat salah<br>
 Hasil run<br>
 ![alt text](gambar_dokumentasi/17.png)<br>
 ![alt text](gambar_dokumentasi/18.png)<br>
+
+### PRAKTIKUM 7 – Testing Page dengan Router (Mocking)
+Membuat file product.spec.tsx
+![alt text](gambar_dokumentasi/19.png)
+Menambahkan kode pada product.spec.tsx
+![alt text](gambar_dokumentasi/20.png)
+Hasil :
+![alt text](gambar_dokumentasi/21.png)
+memperbaiki kode di product.spec.tsx untuk solusi Mock Next Router
+![alt text](gambar_dokumentasi/22.png)
+Hasil :
+![alt text](gambar_dokumentasi/23.png)
