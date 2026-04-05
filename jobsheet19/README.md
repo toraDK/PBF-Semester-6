@@ -46,13 +46,23 @@ Hasil run<br>
 ![alt text](gambar_dokumentasi/18.png)<br>
 
 ### PRAKTIKUM 7 – Testing Page dengan Router (Mocking)
-Membuat file product.spec.tsx
-![alt text](gambar_dokumentasi/19.png)
-Menambahkan kode pada product.spec.tsx
-![alt text](gambar_dokumentasi/20.png)
-Hasil :
-![alt text](gambar_dokumentasi/21.png)
-memperbaiki kode di product.spec.tsx untuk solusi Mock Next Router
-![alt text](gambar_dokumentasi/22.png)
-Hasil :
-![alt text](gambar_dokumentasi/23.png)
+Membuat file product.spec.tsx<br>
+![alt text](gambar_dokumentasi/19.png)<br>
+Menambahkan kode pada product.spec.tsx<br>
+![alt text](gambar_dokumentasi/20.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/21.png)<br>
+memperbaiki kode di product.spec.tsx untuk solusi Mock Next Router<br>
+![alt text](gambar_dokumentasi/22.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/23.png)<br>
+
+### PRAKTIKUM 8 – Menangani Undefined Data
+menjalankan test coverage<br>
+![alt text](gambar_dokumentasi/24.png)<br>
+Edit file index.tsx pada folder pages/produk<br>
+![alt text](gambar_dokumentasi/25.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/26.png)<br>
+perbaikan code pada file index.tsx di view/product<br>
+![alt text](gambar_dokumentasi/27.png)<br>
