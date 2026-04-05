@@ -69,7 +69,7 @@ perbaikan code pada file index.tsx di view/product<br>
 Hasil run :<br>
 ![alt text](gambar_dokumentasi/28.png)<br><br>
 
-Tugas <br>
+### Tugas
 1. Buat unit test untuk Halaman produk 1 komponen<br>
 ![alt text](gambar_dokumentasi/29.png)<br>
 ![alt text](gambar_dokumentasi/30.png)<br>
@@ -79,5 +79,19 @@ Hasil :<br>
 2. Gunakan minimal 1 Snapshot test, 1 toBe(), 1 getByTestId()<br>
 ![alt text](gambar_dokumentasi/32.png)<br><br>
 
-3. Buat coverage minimal 50%
-![alt text](gambar_dokumentasi/33.png)
+3. Buat coverage minimal 50%<br>
+![alt text](gambar_dokumentasi/33.png)<br><br>
+
+### Diskusi & Refleksi
+1. Mengapa unit testing penting sebelum production?<br>
+-> untuk Menemukan Bug sebelum production<br>
+2. Mengapa branch coverage sulit mencapai 100%?<br>
+-> karena logika di dalam library luar yang dipakai tidak bisa dikontrol sepenuhnya<br>
+3. Apa itu mocking?<br>
+-> Mocking adalah teknik untuk mengganti komponen asli dengan versi "palsu" atau tiruan selama testing. Tujuannya Agar unit test tetap terisolasi. Supaya unit test tidak gagal hanya karena server API sedang mati atau database sedang lemot.<br>
+4. Kapan snapshot test digunakan?<br>
+-> Snapshot test digunakan untuk memastikan UI tidak berubah secara tidak sengaja. Snapshot Sangat cocok untuk komponen yang tampilannya sudah stabil.<br>
+5. Apakah semua file harus dites?<br>
+-> Tidak semua file harus dites<br>
+-> file file yang harus dites : file file yang berisi Business Logic, Komponen Reusable, Bagian yang sering error<br>
+-> file file yang tidak harus dites : File konfigurasi, File yang hanya berisi tipe data, Komponen UI yang sangat sederhana dan statis contohnya Footer
