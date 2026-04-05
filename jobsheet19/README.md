@@ -23,3 +23,11 @@ Muncul folder baru<br>
 ![alt text](gambar_dokumentasi/8.png)<br>
 Hasil tampilan coverage<br>
 ![alt text](gambar_dokumentasi/9.png)<br>
+
+### PRAKTIKUM 5 – Konfigurasi Coverage Lengkap
+edit kode konfigurasi untuk jest<br>
+![alt text](igambar_dokumentasi/10.png)<br>
+Hasil saat menjalankan npm run test:coverage<br>
+![alt text](gambar_dokumentasi/11.png)<br>
+Hasil pada tampilan coverage<br>
+![alt text](gambar_dokumentasi/12.png)<br>
