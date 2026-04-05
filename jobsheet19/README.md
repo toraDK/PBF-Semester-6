@@ -31,3 +31,16 @@ Hasil saat menjalankan npm run test:coverage<br>
 ![alt text](gambar_dokumentasi/11.png)<br>
 Hasil pada tampilan coverage<br>
 ![alt text](gambar_dokumentasi/12.png)<br>
+
+### PRAKTIKUM 6 – Testing dengan getByTestId
+edit index pada about<br>
+![alt text](gambar_dokumentasi/13.png)<br>
+Update Testing pada about.spec.tsx<br>
+![alt text](gambar_dokumentasi/14.png)<br>
+run test<br>
+![alt text](gambar_dokumentasi/15.png)<br>
+Jika dibuat salah<br>
+![alt text](gambar_dokumentasi/16.png)<br>
+Hasil run<br>
+![alt text](gambar_dokumentasi/17.png)<br>
+![alt text](gambar_dokumentasi/18.png)<br>
