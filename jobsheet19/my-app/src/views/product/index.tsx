@@ -15,7 +15,6 @@ const TampilanProduk = ({ products }: { products: ProductType[]; }) => {
 
     return (
         <div className={styles.produk}>
-            {/* Tambahkan data-testid agar unit test kamu tidak error */}
             <h1 className={styles.produk__title} data-testid="title">
                 Daftar Produk
             </h1>

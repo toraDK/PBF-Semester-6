@@ -66,5 +66,15 @@ Hasil :<br>
 ![alt text](gambar_dokumentasi/26.png)<br>
 perbaikan code pada file index.tsx di view/product<br>
 ![alt text](gambar_dokumentasi/27.png)<br>
-Hasil run :
-![alt text](gambar_dokumentasi/28.png)
+Hasil run :<br>
+![alt text](gambar_dokumentasi/28.png)<br><br>
+
+Tugas <br>
+1. Buat unit test untuk Halaman produk 1 komponen<br>
+![alt text](gambar_dokumentasi/29.png)<br>
+![alt text](gambar_dokumentasi/30.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/31.png)<br><br>
+
+2. Gunakan minimal 1 Snapshot test, 1 toBe(), 1 getByTestId()<br>
+![alt text](gambar_dokumentasi/32.png)<br><br>
