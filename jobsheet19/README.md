@@ -5,3 +5,7 @@ Membuat File Konfigurasi<br>
 ![alt text](gambar_dokumentasi/2.png)<br>
 Menambahkan Script di package.json<br>
 ![alt text](gambar_dokumentasi/3.png)<br>
+
+### PRAKTIKUM 2 – Struktur Folder Testing
+membuat foler testing<br>
+![alt text](gambar_dokumentasi/4.png)<br>
