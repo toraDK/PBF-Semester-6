@@ -1,10 +1,10 @@
 import Link from "next/link";
 import TampilanLogin from "@/views/auth/login";
 
-const halamanLogin = () => {
+const HalamanLogin = () => {
   return (
     <TampilanLogin />
   );
 };
 
-export default halamanLogin;
+export default HalamanLogin;

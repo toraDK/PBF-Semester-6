@@ -78,3 +78,6 @@ Hasil :<br>
 
 2. Gunakan minimal 1 Snapshot test, 1 toBe(), 1 getByTestId()<br>
 ![alt text](gambar_dokumentasi/32.png)<br><br>
+
+3. Buat coverage minimal 50%
+![alt text](gambar_dokumentasi/33.png)

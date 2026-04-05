@@ -49,7 +49,7 @@ const TampilanLogin = () => {
 
   return (
     <>
-      <div className={style.login}>
+      <div className={style.login} data-testid="login-view">
         {error && <p className={style.login__error}>{error}</p>}
         <h1 className={style.login__title}>Halaman Login</h1>
         <div className={style.login__form}>

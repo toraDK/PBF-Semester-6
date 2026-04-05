@@ -14,7 +14,7 @@ const halamanProdukServer = (props: { products: ProductType[] }) => {
   return (
     <div>
       <h1>Halaman Produk Server</h1>
-      <TampilanProduk products={products} isLoading={!products?.length}/>
+      <TampilanProduk products={products}/>
     </div>
   );
 };
