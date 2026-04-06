@@ -34,15 +34,29 @@ Hasil Deploy<br>
 ![alt text](gambar_dokumentasi/16.png)<br>
 
 ### PRAKTIKUM 3 – Menambahkan Environment Variable di Vercel
-Mengimport file env
-![alt text](gambar_dokumentasi/17.png)
-Mengganti isi variabel NEXT_PUBLIC_API_URL sesuai nama url hasil deploy
-![alt](gambar_dokumentasi/18.png)
-Melakukan redeploy
-![alt text](gambar_dokumentasi/19.png)
-Hasil :
-![alt text](gambar_dokumentasi/20.png)
+Mengimport file env<br>
+![alt text](gambar_dokumentasi/17.png)<br>
+Mengganti isi variabel NEXT_PUBLIC_API_URL sesuai nama url hasil deploy<br>
+![alt](gambar_dokumentasi/18.png)<br>
+Melakukan redeploy<br>
+![alt text](gambar_dokumentasi/19.png)<br>
+Hasil :<br>
+![alt text](gambar_dokumentasi/20.png)<br>
 
 ### PRAKTIKUM 4 – Konfigurasi Google OAuth Production
-Menambahkan url hasil deploy pada Authorized Origins dan Redirect URI
-![alt text](gambar_dokumentasi/21.png)
+Menambahkan url hasil deploy pada Authorized Origins dan Redirect URI<br>
+![alt text](gambar_dokumentasi/21.png)<br>
+
+### PRAKTIKUM 5 – Pengujian Setelah Deployment
+Akses /<br>
+![alt text](gambar_dokumentasi/22.png)<br>
+Akses /about<br>
+![alt text](gambar_dokumentasi/23.png)<br>
+Akses /product<br>
+![alt text](gambar_dokumentasi/24.png)<br>
+Akses /profile<br>
+![alt text](gambar_dokumentasi/25.png)<br>
+Login Google<br>
+![alt](gambar_dokumentasi/gif1.gif)<br>
+Login credential biasa<br>
+![alt](gambar_dokumentasi/gif2.gif)<br>
