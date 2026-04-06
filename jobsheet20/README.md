@@ -60,3 +60,17 @@ Login Google<br>
 ![alt](gambar_dokumentasi/gif1.gif)<br>
 Login credential biasa<br>
 ![alt](gambar_dokumentasi/gif2.gif)<br>
+
+Refleksi & Diskusi<br>
+1. Mengapa localhost tidak boleh digunakan di production?<br>
+-> karena localhost itu berjalan di laptop sendiri bukan di server. Jika kode mengandung localhost:3000, aplikasi yang berjalan di server Vercel akan mencoba mencari data di dalam server Vercel itu sendiri, bukan di laptop sendiri atau di internet.<br>
+2. Mengapa SSG bisa gagal saat build?<br>
+-> SSG membuat halaman HTML statis pada saat proses build. Kegagalan build bisa terjadi karena ada kesalahan tipe data, data tidak lengkap<br>
+3. Apa perbedaan SSR dan SSG saat deployment?<br>
+-> SSG = Waktu render Dilakukan sekali saat build time, Kecepatannya sangat cepat karena server hanya mengirim file HTML yang sudah jadi, Bbeban server sangat rendah, Jika ada data baru maka harus build ulang<br>
+-> SSR = Waktu render selalu dilakukan setiap ada request, kecepatannya lebih lambat karena server harus memproses kode dulu sebelum kirim, Beban server lebih tinggi, Jika ada data baru tidak perlu build ulang karena langsung terupdate<br>
+4. Mengapa perlu redeploy setelah menambahkan environment?<br>
+-> Saat kamu menambahkan variabel baru di Dashboard Vercel, variabel tersebut tersimpan di server tapi belum masuk ke dalam paket aplikasi yang sudah di-deploy<br>
+-> Redeploy diperlukan agar Next.js membaca ulang variabel baru tersebut dan memasukkannya ke dalam kode program yang akan dijalankan.<br>
+5. Apa fungsi redirect URI pada OAuth?<br>
+-> untuk mengarahkan user kealamat yang sudah didaftarkan secara resmi setelah user berhasil login
