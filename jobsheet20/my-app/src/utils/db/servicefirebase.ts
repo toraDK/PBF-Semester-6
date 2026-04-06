@@ -75,7 +75,7 @@ export async function signIn(
 
 export async function signUp(
   userData: RegisterUserData,
-  callback: (any) => void,
+  callback: (result: any) => void,
 ) {
 
   if (!userData.email) {
