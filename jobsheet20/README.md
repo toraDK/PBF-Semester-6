@@ -32,3 +32,13 @@ Hasil Deploy<br>
 ![alt text](gambar_dokumentasi/14.png)<br>
 ![alt text](gambar_dokumentasi/15.png)<br>
 ![alt text](gambar_dokumentasi/16.png)<br>
+
+### PRAKTIKUM 3 – Menambahkan Environment Variable di Vercel
+Mengimport file env
+![alt text](gambar_dokumentasi/17.png)
+Mengganti isi variabel NEXT_PUBLIC_API_URL sesuai nama url hasil deploy
+![alt](gambar_dokumentasi/18.png)
+Melakukan redeploy
+![alt text](gambar_dokumentasi/19.png)
+Hasil :
+![alt text](gambar_dokumentasi/20.png)
