@@ -4,27 +4,31 @@ Saya sudah mengupload setiap jobsheet ke repository mulai jobsheet pertama<br>
 
 ### PRAKTIKUM 2 – Deployment ke Vercel
 Login ke Vercel<br>
-![alt text](image.png)<br>
+![alt text](gambar_dokumentasi/2.png)<br>
 import Project<br>
-![alt text](image-1.png)<br>
-![alt text](image-2.png)<br>
+![alt text](gambar_dokumentasi/3.png)<br>
+![alt text](gambar_dokumentasi/4.png)<br>
 Memilih root direktori<br>
-![alt text](image-3.png)<br><br>
+![alt text](gambar_dokumentasi/5.png)<br><br>
 #### Melakukan konfigurasi untuk mencegah error
 Menghapus file static.tsx<br>
-![alt text](image-12.png)<br>
+![alt text](gambar_dokumentasi/6.png)<br>
 Comment pada line yang berhubungan dengan static-site pada file [produk].tsx <br>
-![alt text](image-5.png)<br>
+![alt text](gambar_dokumentasi/7.png)<br>
 Menggunakan SSR untuk produk<br>
-![alt text](image-6.png)<br>
+![alt text](gambar_dokumentasi/8.png)<br>
 Menambahkan variabel baru di .env.local<br>
-![alt text](image-7.png)<br>
+![alt text](gambar_dokumentasi/9.png)<br>
 Mengganti semua hardcode url<br>
 pada file [produk].tsx<br>
-![alt text](image-8.png)<br>
+![alt text](gambar_dokumentasi/10.png)<br>
 pada file server.tsx<br>
-![alt text](image-9.png)<br>
+![alt text](gambar_dokumentasi/11.png)<br>
 commit dan push kode paling baru<br>
-![alt text](image-10.png)<br>
+![alt text](gambar_dokumentasi/12.png)<br>
 melakukkan pengaturan di vercel<br>
-![alt text](image-11.png)<br>
+![alt text](gambar_dokumentasi/13.png)<br>
+Hasil Deploy<br>
+![alt text](gambar_dokumentasi/14.png)<br>
+![alt text](gambar_dokumentasi/15.png)<br>
+![alt text](gambar_dokumentasi/16.png)<br>
