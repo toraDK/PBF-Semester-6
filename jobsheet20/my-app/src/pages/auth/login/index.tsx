@@ -1,4 +1,3 @@
-import Link from "next/link";
 import TampilanLogin from "@/views/auth/login";
 
 const HalamanLogin = () => {

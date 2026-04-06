@@ -50,8 +50,10 @@ const TampilanLogin = () => {
   return (
     <>
       <div className={style.login} data-testid="login-view">
+        <div className={style.login__noise}></div>
         {error && <p className={style.login__error}>{error}</p>}
         <h1 className={style.login__title}>Halaman Login</h1>
+        <p className={style.login__subtitle}>Masuk untuk melanjutkan aktivitas belanja Anda.</p>
         <div className={style.login__form}>
           <form onSubmit={handleSubmit}>
             <div className={style.login__form__item}>
@@ -92,11 +94,11 @@ const TampilanLogin = () => {
               disabled={isLoading}>
               {isLoading ? "Loading..." : "Login"}
             </button>
-            <br /> <br />
+            <div className={style.login__separator}>atau</div>
             <button
               type="button"
               onClick={() => handleOAuthSignIn("google")}
-              className={style.login__form__item__button}
+              className={`${style.login__form__item__button} ${style.login__form__item__buttonGoogle}`}
               disabled={isLoading}
             >
               {isLoading ? "Loading..." : "Sign in with Google"}
@@ -105,7 +107,7 @@ const TampilanLogin = () => {
             <button
               type="button"
               onClick={() => handleOAuthSignIn("github")}
-              className={style.login__form__item__button}
+              className={`${style.login__form__item__button} ${style.login__form__item__buttonGithub}`}
               disabled={isLoading}
             >
               {isLoading ? "Loading..." : "Sign in with GitHub"}

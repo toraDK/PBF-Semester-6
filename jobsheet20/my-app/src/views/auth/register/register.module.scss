@@ -1,28 +1,61 @@
 .register {
   min-height: 100vh;
   display: flex;
-  flex-direction: column; /* penting */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  background:
+    radial-gradient(circle at 15% 18%, #f7d278 0%, transparent 33%),
+    radial-gradient(circle at 82% 22%, #93c5fd 0%, transparent 36%),
+    linear-gradient(135deg, #111827 0%, #1f2937 55%, #030712 100%);
   padding: 20px;
+  position: relative;
+  overflow: hidden;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
+
+  &__noise {
+    position: absolute;
+    inset: 0;
+    background-image: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.04),
+      rgba(255, 255, 255, 0.04) 1px,
+      transparent 1px,
+      transparent 5px
+    );
+    pointer-events: none;
+  }
 
   &__title {
     width: 100%;
     text-align: center;
-    font-size: 36px;
+    font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 700;
     color: #ffffff;
-    margin-bottom: 40px;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__subtitle {
+    color: #e2e8f0;
+    margin-bottom: 28px;
+    text-align: center;
+    font-family: "Manrope", "Segoe UI", sans-serif;
+    position: relative;
+    z-index: 1;
   }
 
   &__form {
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.95);
     width: 100%;
-    max-width: 420px;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    max-width: 460px;
+    padding: 36px;
+    border-radius: 20px;
+    box-shadow: 0 24px 55px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    position: relative;
+    z-index: 1;
 
     &__item {
       display: flex;
@@ -38,40 +71,65 @@
 
       &__input {
         padding: 12px 14px;
-        border-radius: 10px;
-        border: 1px solid #ddd;
+        border-radius: 12px;
+        border: 1px solid #d1d5db;
         font-size: 14px;
         transition: all 0.3s ease;
+        background: #f8fafc;
+        font-family: "Manrope", "Segoe UI", sans-serif;
 
         &:focus {
           outline: none;
-          border-color: #2a5298;
-          box-shadow: 0 0 0 3px rgba(42, 82, 152, 0.2);
+          border-color: #1e293b;
+          box-shadow: 0 0 0 3px rgba(30, 41, 59, 0.14);
+          background: #ffffff;
+        }
+      }
+
+      &__text {
+        text-align: center;
+        color: #334155;
+
+        a {
+          font-weight: 700;
+          color: #0f172a;
         }
       }
     }
   }
 
   &__error {
-    color: red;
+    color: #fecaca;
+    background: rgba(127, 29, 29, 0.55);
+    border: 1px solid rgba(248, 113, 113, 0.45);
+    border-radius: 12px;
+    padding: 10px 14px;
     font-size: 14px;
-    margin-top: 8px;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
   }
 
   button {
     width: 100%;
     padding: 12px;
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
-    background: #2a5298;
+    background: linear-gradient(135deg, #0f172a, #334155);
     color: #ffffff;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s ease;
 
     &:hover {
-      background: #1e3c72;
+      background: linear-gradient(135deg, #020617, #1e293b);
       transform: translateY(-2px);
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+      transform: none;
     }
   }
 }
@@ -96,7 +154,7 @@
     }
 
     &__title {
-      font-size: 26px;
+      font-size: 30px;
     }
   }
 }

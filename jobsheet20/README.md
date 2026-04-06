@@ -42,3 +42,7 @@ Melakukan redeploy
 ![alt text](gambar_dokumentasi/19.png)
 Hasil :
 ![alt text](gambar_dokumentasi/20.png)
+
+### PRAKTIKUM 4 – Konfigurasi Google OAuth Production
+Menambahkan url hasil deploy pada Authorized Origins dan Redirect URI
+![alt text](gambar_dokumentasi/21.png)

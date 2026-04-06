@@ -40,8 +40,10 @@ const TampilanRegister = () => {
 
   return (
     <div className={style.register}>
+      <div className={style.register__noise}></div>
       {error && <p className={style.register__error}>{error}</p>}
       <h1 className={style.register__title}>Halaman Register</h1>
+      <p className={style.register__subtitle}>Buat akun baru untuk mulai menjelajahi katalog produk.</p>
       <div className={style.register__form}>
         <form onSubmit={handleSubmit}>
           <div className={style.register__form__item}>
